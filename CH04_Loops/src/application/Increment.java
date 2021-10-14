@@ -9,24 +9,33 @@ public class Increment {
 		
 		count = count-1;
 		System.out.println(count);
+		
 		count -= 1;
 		System.out.println(count);
+		
 		count --;
 		System.out.println(count);
+		
 		--count;
 		System.out.println(count);
+		
 		--count;
 		System.out.println(count);
+		
 		--count;
 		System.out.println(count);
+		
 		--count;
 		System.out.println(count);
+		
 		--count;
 		System.out.println(count);
+		
 		--count;
 		System.out.println(count);
 		
 		System.out.println("=================================");
+		
 		--count;
 		System.out.println(count);
 		
@@ -36,22 +45,31 @@ public class Increment {
 		
 		cont = cont+1;
 		System.out.println(cont);
+		
 		cont += 1;
 		System.out.println(cont);
+		
 		cont ++;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
+		
 		++cont;
 		System.out.println(cont);
 

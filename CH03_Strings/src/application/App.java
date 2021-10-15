@@ -10,6 +10,8 @@ public class App {
 		String name = "ȫ�浿";
 		
 		System.out.println(name);
+		System.out.println(height);
+		System.out.println(cats);
 
 	}
 

@@ -9,15 +9,14 @@ public class Break {
 		while (true) {
 			
 			System.out.println("헬로." + count);
-			
-			if (count == 5) { //count가 5가 되면
-				break;		  //반복문은 빠져나옴.
-				
-			}
-			
 			System.out.println("how are you");
 			System.out.println("z" + count);
 			count++;
+			
+			if (count == 5) { 
+				break;		  //count가 5가 되면 반복문은 빠져나옴.
+			}
+			
 		}
 		
 		System.out.println("program finished");

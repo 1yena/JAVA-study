@@ -12,16 +12,31 @@ public class Hangman {
 		// 게임시작
 		
 		do {
-			displayWord(); // 1. 화면에 단어 표시
-			getUserInput(); // 2. 철자 입력 받음
-			checkUserInput(); // 3. 철자가 맞는지 체크 (다 맞으면 종료)
+			
+			displayWord(); 		// 1. 화면에 단어 표시
+			getUserInput(); 	// 2. 철자 입력 받음
+			checkUserInput(); 	// 3. 맞는지 체크 다 맞으면 running = false
 			
 		} while (running);
 		
 	}
+	
+	public void close() {
+		//게임 종료, 스캐너 닫기.
+		scanner.close();
+	}
 
 	private void checkUserInput() {
-		//System.out.println("체크");
+		//유저가 철자를 다 맞췄는지 체크해서 게임을 종료. (running = false)
+		//게임종료 확인하는 메소드 isCompleted(철자가 다 맞는지 체크하는 메소드) 만들기.
+		
+		if(word.isCompleted() ) {
+			
+			System.out.println("잘 맞췄어요 !");
+			System.out.println("정답은 : " + word.toString());
+			running = false; // 반복문 종료(게임종료)
+			
+		}
 	}
 
 	private void getUserInput() {
@@ -32,7 +47,6 @@ public class Hangman {
 		String guess = scanner.nextLine();
 		word.addGuess(guess.charAt(0));
 		
-		
 	}
 
 	private void displayWord() {
@@ -40,6 +54,5 @@ public class Hangman {
 		System.out.println(word.toString());
 	}
 
-	
 
 }

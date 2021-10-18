@@ -7,40 +7,40 @@ public class RandomWord {
 	
 	private String[] words = books.split(" "); //공백을 기준으로 잘라서 배열로 리턴한다.
 	
-	private String selectWord; // 선택한 단어
+	private String selectWord; 			// 선택한 단어
 	private Random rand = new Random(); //랜던 객체를 생성
 	private char[] characters;
 	
 	public RandomWord() {
 		
 		selectWord = words[rand.nextInt(words.length)]; //랜덤으로 단어를 선택.
-		characters = new char[selectWord.length()]; //문자 배열 공간 생성.
+		characters = new char[selectWord.length()]; 	//문자 배열 공간 생성.
 		
 	}
 	
 	public String toString() {
-		
 		
 		StringBuilder sb = new StringBuilder();
 		
 		for(char c : characters) {
 			/*	
 				if(c == '\u0000') {
+				
 					sb.append('_');
 					
 				}
 				else {
+				
 					sb.append(c);
 					
 				} */
-			
 				
-				sb.append(c == '\u0000' ? '_' : c);
-				
+				sb.append(c == '\u0000' ? '_' : c); // '\u0000' = 초기값(널값)
 				sb.append(' ');
+				
 		}
 		
-		System.out.println(selectWord);
+		// System.out.println(selectWord); 육안으로 확인용.
 		return sb.toString();
 	}
 	
@@ -61,12 +61,31 @@ public class RandomWord {
 				characters[i] = c;
 			}
 		}
+			
+	}
+
+	public boolean isCompleted() { // 다 맞췄는가 확인
 		
-		
+		for(char c : characters) {
+			
+			if(c=='\u0000') {
+				return false; // 아직 characters 배열에 못 맞춘 철자가 있을 경우
+			} 
+			
+		}
+		return true; //다 맞춤.
 	}
 	
-	
-	
-	
-	
 }
+
+
+
+
+
+
+
+
+
+
+
+

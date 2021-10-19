@@ -3,17 +3,49 @@ package method;
 public class Walking {
 
 	public static void main(String[] args) {
+		// 1. 칼로리 계ㅏㄴ을 위해 메소드를 호출하시오.
+		// 2. 결과를 출력하시오.
 		
-		int x = 180;
-		double y = 5.179;
-		double result = 0;
-		
-		System.out.printf("삼겹살 3인분 : %.2f", x*y*3 + "kcal");
-
+		double myCal = calori(800);
+		System.out.println("소모칼로리 : " + myCal + " kcal");
+	
 	}
 	
-	
-	private static double calculateCalory(int walk) {
-		return 0.02 * walk;
+	// 2. 칼로리 계산 메소드를 정의하시오.
+	public static double calori(int walk) {
+		double result = walk*0.02;
+		return result;
+		
 	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

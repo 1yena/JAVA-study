@@ -1,11 +1,11 @@
-package local_innerClass;
+package local_innerClass2;
 
 public class App {
 	
 	private String name;
 	
 	public App() {
-		name = "¿¤¸®ÀÚ";
+		name = "Äí·çÄí±";
 	}
 
 	public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class App {
 		
 		class Printer {
 			public void print() {
-				System.out.println(name);
+				System.out.println(App.this.name);
 			}
 		}
 		

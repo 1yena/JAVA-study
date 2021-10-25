@@ -31,8 +31,17 @@ public class Toolbar extends JToolBar {
 		final JButton redButton = new JButton("ÁÂ±òÂ¦");
 		final JButton blueButton = new JButton("¿ì±òÂ¦");
 		
-		redButton.addActionListener(new ColorListener(colorChanger, Color.pink));
-		blueButton.addActionListener(new ColorListener(colorChanger, Color.cyan));
+		redButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				colorChanger.changColor(Color.PINK);  // ¸¶¿ì½º Å¬¸¯ ½Ã ½ÇÇà
+			}
+			
+		});
+		
+		// ¶÷´Ù½Ä
+		blueButton.addActionListener(e->colorChanger.changColor(Color.cyan));
+			
+		
 		
 		add(redButton);
 		add(blueButton);

@@ -1,15 +1,15 @@
 package local_innerClass2;
 
-public class App {
+public class App2 {
 	
 	private String name;
 	
-	public App() {
+	public App2() {
 		name = "Äí·çÄí±";
 	}
 
 	public static void main(String[] args) {
-		App app = new App();
+		App2 app = new App2();
 		app.run();
 
 	}
@@ -18,7 +18,7 @@ public class App {
 		
 		class Printer {
 			public void print() {
-				System.out.println(App.this.name);
+				System.out.println(App2.this.name);
 			}
 		}
 		

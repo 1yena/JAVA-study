@@ -15,6 +15,8 @@ public class UserInput {
 		
 		System.out.println("¼·¾¾ " +c+ "µµ´Â È­¾¾ "+f+"µµÀÌ´Ù.");
 		
+		scanner.close();
+		
 	}
 
 }

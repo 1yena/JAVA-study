@@ -1,18 +1,18 @@
 package returnValues;
 
 public class ReturnValue {
-	// void : ¸®ÅÏ °ªÀÌ ¾øÀ» ¶§ »ç¿ëÇÔ.
+	// void : ë¦¬í„´ ê°’ì´ ì—†ì„ ë•Œ ì‚¬ìš©í•¨.
 	/* 
 	  void getAnimal() {
-		//System.out.println("°í¾çÀÌ¸¦ ¸®ÅÏÇÕ´Ï´Ù.");
+		//System.out.println("ê³ ì–‘ì´ë¥¼ ë¦¬í„´í•©ë‹ˆë‹¤.");
 	} 
 	*/
 		
 	
-	// ¸®ÅÏ °ªÀÌ ÀÖÀ» ¶§
+	// ë¦¬í„´ ê°’ì´ ìˆì„ ë•Œ
 	 String getAnimal() {
 		 
-		return "°í¾çÀÌ";
+		return "ê³ ì–‘ì´";
 	
 	 } 
 

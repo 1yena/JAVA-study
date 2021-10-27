@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 class Task implements Runnable {
 	@Override
 	public void run() {
-		System.out.println("¹è°íÆÄ !");
+		System.out.println("ë°°ê³ íŒŒ !");
 	}
 }
 
@@ -17,7 +17,7 @@ public class App {
 
 	public static void main(String[] args) {
 		ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
-		executor.scheduleAtFixedRate(new Task(), 0, 3, TimeUnit.SECONDS); // ÇÒÀÏ,µô·¹ÀÌ½Ã°£(½ÇÇà½Ã°£),¹İº¹½Ã°£,½Ã°£Å¸ÀÔ
+		executor.scheduleAtFixedRate(new Task(), 0, 3, TimeUnit.SECONDS); // í• ì¼,ë”œë ˆì´ì‹œê°„(ì‹¤í–‰ì‹œê°„),ë°˜ë³µì‹œê°„,ì‹œê°„íƒ€ì…
 
 	}
 

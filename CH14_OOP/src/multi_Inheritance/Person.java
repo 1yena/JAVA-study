@@ -1,17 +1,17 @@
 package multi_Inheritance;
 
 public class Person implements Speaker, Greeter {
-	// ÀÎÅÍÆäÀÌ½º´Â ´ÙÁß(¿©·¯°³)±¸ÇöÀÌ °¡´ÉÇÏÁö¸¸ »ó¼Ó(extends)Àº ÇÏ³ª¸¸ µÈ´Ù.
+	// ì¸í„°í˜ì´ìŠ¤ëŠ” ë‹¤ì¤‘(ì—¬ëŸ¬ê°œ)êµ¬í˜„ì´ ê°€ëŠ¥í•˜ì§€ë§Œ ìƒì†(extends)ì€ í•˜ë‚˜ë§Œ ëœë‹¤.
 
 	@Override
 	public void greet() {
-		System.out.println("È¯¿µÇÕ´Ï´Ù!");
+		System.out.println("í™˜ì˜í•©ë‹ˆë‹¤!");
 		
 	}
 
 	@Override
 	public void speak() {
-		System.out.println("³ª´Â PersonÀÔ´Ï´Ù.");
+		System.out.println("ë‚˜ëŠ” Personì…ë‹ˆë‹¤.");
 		
 	}
 

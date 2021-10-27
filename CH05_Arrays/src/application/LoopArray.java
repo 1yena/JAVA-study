@@ -3,15 +3,15 @@ package application;
 public class LoopArray {
 
 	public static void main(String[] args) {
-		// for ¹Ýº¹¹®°ú ÀÎµ¦½º i¸¦ ÀÌ¿ëÇØ ¹è¿­ÀÇ Ã¹¹øÂ°ºÎÅÍ ³¡±îÁö Ãâ·ÂÇÏ¶ó.
+		// for ë°˜ë³µë¬¸ê³¼ ì¸ë±ìŠ¤ ië¥¼ ì´ìš©í•´ ë°°ì—´ì˜ ì²«ë²ˆì§¸ë¶€í„° ëê¹Œì§€ ì¶œë ¥í•˜ë¼.
 
-		String[] animal = { "°³", "°í¾çÀÌ", "´ß", "»çÀÚ", "¾ç", "¸»", "Æë±Ï", "°¥¸Å±â", "º´¾Æ¸®", "Ä¡Å²" };
+		String[] animal = { "ê°œ", "ê³ ì–‘ì´", "ë‹­", "ì‚¬ìž", "ì–‘", "ë§", "íŽ­ê·„", "ê°ˆë§¤ê¸°", "ë³‘ì•„ë¦¬", "ì¹˜í‚¨" };
 
 		for (int i = 0; i < animal.length; i++) {
 			System.out.println(animal[i]);
 		}
 
-		// ".length" ÀÚµ¿À¸·Î ¹è¿­ÀÇ ¼ö¸¸Å­ ¹Ýº¹µÊ.
+		// ".length" ìžë™ìœ¼ë¡œ ë°°ì—´ì˜ ìˆ˜ë§Œí¼ ë°˜ë³µë¨.
 	}
 
 }

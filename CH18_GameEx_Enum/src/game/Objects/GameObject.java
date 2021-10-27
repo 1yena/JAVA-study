@@ -2,13 +2,13 @@ package game.Objects;
 
 public enum GameObject {
 	
-	°¡À§, ¹ÙÀ§, º¸; //enumÀÇ »ó¼ö
+	ê°€ìœ„, ë°”ìœ„, ë³´; //enumì˜ ìƒìˆ˜
 	
 	private int[][] compartison = {
-			//		  °¡À§	¹ÙÀ§		º¸
-			/*°¡À§*/	{  0,	-1,		1 },
-			/*¹ÙÀ§*/	{  1,	 0,	   -1 },
-			/*º¸ */	{ -1,	 1,		0 }
+			//		  ê°€ìœ„	ë°”ìœ„		ë³´
+			/*ê°€ìœ„*/	{  0,	-1,		1 },
+			/*ë°”ìœ„*/	{  1,	 0,	   -1 },
+			/*ë³´ */	{ -1,	 1,		0 }
 	};
 	
 	public int compare(GameObject ob) {

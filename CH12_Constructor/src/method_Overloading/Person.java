@@ -3,25 +3,25 @@ package method_Overloading;
 public class Person {
 	
 	public void greet() {
-		System.out.println("¾È³ç");
+		System.out.println("ì•ˆë…•");
 	}
 	public void greet(String name) {
-		System.out.println("À£ÄÄ! "+ name);
+		System.out.println("ì›°ì»´! "+ name);
 	}
 	
 	public void greet(int hi) {
 		if(hi > 185) {
-			System.out.println("Å°°¡ Å©±º¿ä!");
+			System.out.println("í‚¤ê°€ í¬êµ°ìš”!");
 		} else {
-		System.out.println("Å°°¡ ÀÛ±º¿ä!");
+		System.out.println("í‚¤ê°€ ì‘êµ°ìš”!");
 		}
 	}
 	
 	public void greet(String name, int hi) {
 		if(hi > 185) {
-			System.out.println("Å°°¡ Å©³×¿ä!");
+			System.out.println("í‚¤ê°€ í¬ë„¤ìš”!");
 		}
-		System.out.println("¿À±¸! " + name);
+		System.out.println("ì˜¤êµ¬! " + name);
 	}
 
 }

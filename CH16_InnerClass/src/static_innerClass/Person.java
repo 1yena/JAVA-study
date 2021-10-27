@@ -1,20 +1,20 @@
 package static_innerClass;
 
 public class Person {
-	class Head { // ³»ºÎÅ¬·¡½º Head
+	class Head { // ë‚´ë¶€í´ë˜ìŠ¤ Head
 		public void print() {
-			System.out.println("Çìµå");
+			System.out.println("í—¤ë“œ");
 		}
 	}
-	static class Body { // static ³»ºÎÅ¬·¡½º Body
+	static class Body { // static ë‚´ë¶€í´ë˜ìŠ¤ Body
 		public void print() {
-			System.out.println("¹Ùµğ");
+			System.out.println("ë°”ë””");
 		}
 	}
 
-	public void print() { // Å¬·¡½º PersonÀÇ ¸Ş¼Ò±×
-		Head head = new Head(); //Çìµå °´Ã¼
-		Body body = new Body();	//¹Ùµğ °´Ã¼
+	public void print() { // í´ë˜ìŠ¤ Personì˜ ë©”ì†Œê·¸
+		Head head = new Head(); //í—¤ë“œ ê°ì²´
+		Body body = new Body();	//ë°”ë”” ê°ì²´
 		
 		head.print();
 		body.print();

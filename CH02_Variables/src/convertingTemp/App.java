@@ -3,12 +3,12 @@ package convertingTemp;
 public class App {
 
 	public static void main(String[] args) {
-		// ¼·¾¾ Celsius => È­¾¾ Fahrenheit º¯È¯
+		// ì„­ì”¨ Celsius => í™”ì”¨ Fahrenheit ë³€í™˜
 		
-		double c = 25; //¼·¾¾
-		double f = (c * 9/5) + 32; //È­¾¾
+		double c = 25; //ì„­ì”¨
+		double f = (c * 9/5) + 32; //í™”ì”¨
 		
-		System.out.println("¼·¾¾ " +c+ "µµ´Â È­¾¾ "+f+"µµÀÌ´Ù.");
+		System.out.println("ì„­ì”¨ " +c+ "ë„ëŠ” í™”ì”¨ "+f+"ë„ì´ë‹¤.");
 		
 	}
 

@@ -6,52 +6,52 @@ public class Ex2 {
 
 	public static void main(String[] args) {
 		/* if(option == 1) {
-			System.out.println("Çï·Î");
+			System.out.println("í—¬ë¡œ");
 		}
 		else if(option == 2) {
-			System.out.println("¾È³ç");
+			System.out.println("ì•ˆë…•");
 		}
 		else if(option == 3) {
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 		} 
 		else if(option == 10000) {
-			System.out.println("ÀÌ½ºÅÍ¿¡±×");
+			System.out.println("ì´ìŠ¤í„°ì—ê·¸");
 		}
 		else {
-			System.out.println("Àß¸øµÈ ¿É¼ÇÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ì˜µì…˜ì…ë‹ˆë‹¤.");
 		}  */
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("¸Ş´º");
+		System.out.println("ë©”ë‰´");
 		System.out.println("====\n");
-		System.out.println("1. ÇÁ¸°Æ® 'Çï·Î'");
-		System.out.println("2. ÇÁ¸°Æ® '¾È³ç'");
-		System.out.println("3. 'ÇÁ·Î±×·¥ Á¾·á'");
+		System.out.println("1. í”„ë¦°íŠ¸ 'í—¬ë¡œ'");
+		System.out.println("2. í”„ë¦°íŠ¸ 'ì•ˆë…•'");
+		System.out.println("3. 'í”„ë¡œê·¸ë¨ ì¢…ë£Œ'");
 		
-		System.out.print("¿É¼ÇÀ» ¼±ÅÃ > ");
+		System.out.print("ì˜µì…˜ì„ ì„ íƒ > ");
 		int option = scanner.nextInt();
 		scanner.close();
 		
 		switch (option) {
 		case 1:
-			System.out.println("Çï·Î");
+			System.out.println("í—¬ë¡œ");
 			break;
 			
 		case 2:
-			System.out.println("¾È³ç ?");
+			System.out.println("ì•ˆë…• ?");
 			break;
 
 		case 3:
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á...");
+			System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ...");
 			break;
 			
 		case 10000:
-			System.out.println("ÀÌ½ºÅÍ¿¡±×");
+			System.out.println("ì´ìŠ¤í„°ì—ê·¸");
 			break;
 			
 		default:
-			System.out.println("Àß¸øµÈ ¿É¼Ç¹øÈ£.");
+			System.out.println("ì˜ëª»ëœ ì˜µì…˜ë²ˆí˜¸.");
 			break;
 		}
 

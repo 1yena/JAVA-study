@@ -3,10 +3,10 @@ package application;
 public class NewArray {
 
 	public static void main(String[] args) {
-		// new Å°¿öµå·Î ¹è¿­ »ı¼º
-		//int[] nmbers = {}; ÃÊ±â°ªÀ» ¹Ù·Î ³Ö´Â ¹æ¹ı.
+		// new í‚¤ì›Œë“œë¡œ ë°°ì—´ ìƒì„±
+		//int[] nmbers = {}; ì´ˆê¸°ê°’ì„ ë°”ë¡œ ë„£ëŠ” ë°©ë²•.
 		
-		int[] numbers = new int[3]; //intÇü 3°³ÀÇ ¾ÆÀÌÅÛ »ı¼º
+		int[] numbers = new int[3]; //intí˜• 3ê°œì˜ ì•„ì´í…œ ìƒì„±
 		
 		for ( int i=0; i<numbers.length; i++) {
 			System.out.println(numbers[i]);

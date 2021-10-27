@@ -15,7 +15,7 @@ class ColorListener implements ActionListener {
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		System.out.println("¹öÆ°ÀÌ Å¬¸¯!");
+		System.out.println("ë²„íŠ¼ì´ í´ë¦­!");
 		colorChanger.changColor(color);
 	}
 	
@@ -28,8 +28,8 @@ public class Toolbar extends JToolBar {
 	
 	public Toolbar(ColorChangeListener colorChanger) {
 		
-		final JButton redButton = new JButton("ÁÂ±òÂ¦");
-		final JButton blueButton = new JButton("¿ì±òÂ¦");
+		final JButton redButton = new JButton("ì¢Œê¹”ì§");
+		final JButton blueButton = new JButton("ìš°ê¹”ì§");
 		
 		redButton.addActionListener(new ColorListener(colorChanger, Color.pink));
 		blueButton.addActionListener(new ColorListener(colorChanger, Color.cyan));

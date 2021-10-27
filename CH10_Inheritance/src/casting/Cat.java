@@ -1,13 +1,13 @@
 package casting;
 
 public class Cat {
-	// ±âº»°í¾çÀÌ : °í¾çÀÌ´Â ¾Ö¿ËÇÏ°í ¿ï°í »ç³ÉÇÒ ¼ö ÀÖ´Ù
+	// ê¸°ë³¸ê³ ì–‘ì´ : ê³ ì–‘ì´ëŠ” ì• ì˜¹í•˜ê³  ìš¸ê³  ì‚¬ëƒ¥í•  ìˆ˜ ìˆë‹¤
 	
 	public void vocal() {
-		System.out.println("¾Ö¿Ë");
+		System.out.println("ì• ì˜¹");
 	}
 	public void hunt() {
-		System.out.println("»ç³É");
+		System.out.println("ì‚¬ëƒ¥");
 	}
 	
 }

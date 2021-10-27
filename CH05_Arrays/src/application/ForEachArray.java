@@ -3,10 +3,10 @@ package application;
 public class ForEachArray {
 
 	public static void main(String[] args) {
-		// for each ¹Ýº¹¹®
+		// for each ë°˜ë³µë¬¸
 		
 		int[] number = {2,4,6};
-		String[] fruits = { "¹Ù³ª³ª", "»ç°ú", "¼ö¹Ú" };
+		String[] fruits = { "ë°”ë‚˜ë‚˜", "ì‚¬ê³¼", "ìˆ˜ë°•" };
 		
 		for(int n : number) {
 			System.out.println(n);

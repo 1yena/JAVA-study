@@ -4,17 +4,17 @@ public class Gamble {
 	  public static void main(String[] args) {
 	    double dollar = dice() + dice() + dice();
 	    double won = exchange(dollar);
-	    System.out.printf("È¹µæ ±İ¾×: $%.2f(%.0f¿ø)", dollar, won);
+	    System.out.printf("íšë“ ê¸ˆì•¡: $%.2f(%.0fì›)", dollar, won);
 	  }
 	  
 	  public static int dice() {
-	    /* Math.random() ¸Ş¼Òµå¸¦ È°¿ëÇÏ¿© 1~6 »çÀÌÀÇ Á¤¼ö¸¦ ¹İÈ¯ÇÏµµ·Ï ÇÏ½Ã¿À */
+	    /* Math.random() ë©”ì†Œë“œë¥¼ í™œìš©í•˜ì—¬ 1~6 ì‚¬ì´ì˜ ì •ìˆ˜ë¥¼ ë°˜í™˜í•˜ë„ë¡ í•˜ì‹œì˜¤ */
 		int rand = (int)(Math.random()*6)+1;
 	    return rand;
 	  }
 	  
 	  public static double exchange(double dollar) {
-	    /* ÀÔ·Â¹ŞÀº ´Ş·¯¸¦ È¯ÀüÇÏ¿© ¹İÈ¯ ÇÏ½Ã¿À */
+	    /* ì…ë ¥ë°›ì€ ë‹¬ëŸ¬ë¥¼ í™˜ì „í•˜ì—¬ ë°˜í™˜ í•˜ì‹œì˜¤ */
 	    return dollar * 1082.25108;
 	  }
 	}

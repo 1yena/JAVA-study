@@ -3,17 +3,17 @@ package method_Overloading;
 public class App {
 
 	public static void main(String[] args) {
-		//¸Ş¼Òµå ¿À¹ö·Îµù ¸Ş¼ÒµåÀÇ ÀÌ¸§Àº °°Áö¸¸ ¸Å°³º¯¼ö°¡ ´Ù¸¦ ¶§
+		//ë©”ì†Œë“œ ì˜¤ë²„ë¡œë”© ë©”ì†Œë“œì˜ ì´ë¦„ì€ ê°™ì§€ë§Œ ë§¤ê°œë³€ìˆ˜ê°€ ë‹¤ë¥¼ ë•Œ
 		Person person = new Person();
 		
 		person.greet();
-		person.greet("±¸±¸");
+		person.greet("êµ¬êµ¬");
 		
 		person.greet(170);
-		person.greet("¶óÀÌ¾ğ", 170);
+		person.greet("ë¼ì´ì–¸", 170);
 		
 		person.greet(170);
-		person.greet("Æë¼ö", 170);
+		person.greet("í­ìˆ˜", 170);
 	}
 
 }

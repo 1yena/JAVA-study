@@ -12,7 +12,7 @@ class Alert extends TimerTask {
 
 	@Override
 	public void run() {
-		System.out.println("Çï·Î");
+		System.out.println("í—¬ë¡œ");
 		
 	}
 	
@@ -21,7 +21,7 @@ class Alert extends TimerTask {
 class Task implements Runnable {
 	@Override
 	public void run() {
-		System.out.println("¹è°íÆÄ !");
+		System.out.println("ë°°ê³ íŒŒ !");
 	}
 }
 

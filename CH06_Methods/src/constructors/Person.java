@@ -1,17 +1,17 @@
 package constructors;
 
 public class Person {
-	//º¯¼ö
+	//ë³€ìˆ˜
 	private String name;
 	private double height;
 	
-	//»ı¼ºÀÚ
+	//ìƒì„±ì
 	public Person() {
-		//±âº»»ı¼ºÀÚ : »ı·«°¡´ÉÇÏ¸ç ¸Å°³º¯¼ö ¾øÀ½
-		System.out.println("ÇÑ »ç¶÷À» »ı¼º!");
-	} // ÀÌ°Ô ¾øÀ¸¸é °´Ã¼¸¸ »ı¼ºµÊ.
+		//ê¸°ë³¸ìƒì„±ì : ìƒëµê°€ëŠ¥í•˜ë©° ë§¤ê°œë³€ìˆ˜ ì—†ìŒ
+		System.out.println("í•œ ì‚¬ëŒì„ ìƒì„±!");
+	} // ì´ê²Œ ì—†ìœ¼ë©´ ê°ì²´ë§Œ ìƒì„±ë¨.
 	
-	//get, set ¸Ş¼Òµå
+	//get, set ë©”ì†Œë“œ
 	public void setName(String name) {
 			this.name = name;		
 		}

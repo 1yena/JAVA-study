@@ -3,30 +3,30 @@ package application;
 public class Boolean {
 
 	public static void main(String[] args) {
-		// ºÒ¸° Å¸ÀÔÀº Âü ¶Ç´Â °ÅÁş (true, false)
+		// ë¶ˆë¦° íƒ€ì…ì€ ì°¸ ë˜ëŠ” ê±°ì§“ (true, false)
 		boolean bool1 = false;
-		System.out.println("Á¶°Ç1: "+bool1);
+		System.out.println("ì¡°ê±´1: "+bool1);
 		
-		//ºñ±³ °á°ú Âü, °ÅÁş (true, false)
+		//ë¹„êµ ê²°ê³¼ ì°¸, ê±°ì§“ (true, false)
 		boolean bool2 = 4 < 5;
-		System.out.println("Á¶°Ç2: "+bool2);
+		System.out.println("ì¡°ê±´2: "+bool2);
 		
-		//ºñ±³ °á°ú Âü, °ÅÁş (true, false)
+		//ë¹„êµ ê²°ê³¼ ì°¸, ê±°ì§“ (true, false)
 		boolean bool3 = 14 < 5;
-		System.out.println("Á¶°Ç3: "+bool3);
+		System.out.println("ì¡°ê±´3: "+bool3);
 		
-		//ºñ±³ ==, !=, >=, <= (true, false)
+		//ë¹„êµ ==, !=, >=, <= (true, false)
 		boolean bool4 = 14 == 5;
-		System.out.println("Á¶°Ç4: "+bool4);
+		System.out.println("ì¡°ê±´4: "+bool4);
 		
-		//ºñ±³ ==, !=, >=, <= (true, false)
+		//ë¹„êµ ==, !=, >=, <= (true, false)
 		boolean bool5 = 14 != 5;
-		System.out.println("Á¶°Ç5: "+bool5);
+		System.out.println("ì¡°ê±´5: "+bool5);
 
-		//ºñ±³ ==, !=, >=, <= (true, false)
+		//ë¹„êµ ==, !=, >=, <= (true, false)
 		boolean bool6 = 14 != 5;
-		System.out.println("Á¶°Ç6: "+bool6);
-		System.out.printf("Á¶°Ç6: %b \n", bool6);
+		System.out.println("ì¡°ê±´6: "+bool6);
+		System.out.printf("ì¡°ê±´6: %b \n", bool6);
 
 
 	}

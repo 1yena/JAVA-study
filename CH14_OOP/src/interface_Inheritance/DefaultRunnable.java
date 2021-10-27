@@ -1,9 +1,9 @@
 package interface_Inheritance;
 
-// ÀÎÅÍÆäÀÌ½º¿¡ ÀÎÅÍÆäÀÌ½º¸¦ »ó¼Ó
-public interface DefaultRunnable extends Runnable { //'Runnable'Àº ÇÁ·Î±×·¥ ÀÚÃ¼¿¡ ÀÖ´Â ±âº» ÀÎÅÍÆäÀÌ½ºÀÓ. 'run'ÀÌ¶ó´Â Ãß»ó¸Ş¼Òµå¸¦ ±âº»À¸·Î °¡Áö°í ÀÖÀ½.
-	default void dispalyDetails() { // default ¸Ş¼Òµå´Â ¸Ş¼Òµå ÄÚµå¸¦ ¸¸µé¾îÁà¾ß ÇÔ.
-		System.out.println("Ç¥½ÃÇÒ µğÅ×ÀÏÀÌ¶õ!");
+// ì¸í„°í˜ì´ìŠ¤ì— ì¸í„°í˜ì´ìŠ¤ë¥¼ ìƒì†
+public interface DefaultRunnable extends Runnable { //'Runnable'ì€ í”„ë¡œê·¸ë¨ ìì²´ì— ìˆëŠ” ê¸°ë³¸ ì¸í„°í˜ì´ìŠ¤ì„. 'run'ì´ë¼ëŠ” ì¶”ìƒë©”ì†Œë“œë¥¼ ê¸°ë³¸ìœ¼ë¡œ ê°€ì§€ê³  ìˆìŒ.
+	default void dispalyDetails() { // default ë©”ì†Œë“œëŠ” ë©”ì†Œë“œ ì½”ë“œë¥¼ ë§Œë“¤ì–´ì¤˜ì•¼ í•¨.
+		System.out.println("í‘œì‹œí•  ë””í…Œì¼ì´ë€!");
 		
 	}
 

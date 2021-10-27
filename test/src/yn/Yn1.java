@@ -1,20 +1,14 @@
 package yn;
 
-import java.util.Scanner;
 
 public class Yn1 {
 
 	public static void main(String[] args) {
-		// ¾È³çÇÏ¼¼¿ä
+		// ì•ˆë…•í•˜ì„¸ìš”
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
-		double c = scanner.nextInt();
-		double f = (c * 9/5) + 32;
 		
-		System.out.println("¼·¾¾ " +c+"´Â È­¾¾ "+f+"µµÀÌ´Ù.zzzz");
 		
-		scanner.close();
+		
 	}
 
 }

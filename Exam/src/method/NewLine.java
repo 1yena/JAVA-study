@@ -3,9 +3,9 @@ package method;
 public class NewLine {
 
 	public static void main(String[] args) {
-		System.out.println("¶óÀÎ 1");
+		System.out.println("ë¼ì¸ 1");
 		threeLines();
-		System.out.println("¶óÀÎ 2");
+		System.out.println("ë¼ì¸ 2");
 
 	}
 	
@@ -17,6 +17,6 @@ public class NewLine {
 	
 
 	private static void oneLine() {
-		System.out.println(); // ÇÑ ÁÙ ¶ç¿ò
+		System.out.println(); // í•œ ì¤„ ë„ì›€
 	}
 }

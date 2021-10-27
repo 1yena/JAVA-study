@@ -5,10 +5,10 @@ import game.Game;
 public class App {
 
 	public static void main(String[] args) {
-		// °ÔÀÓ ½ÃÀÛ ¸ŞÀÎ
+		// ê²Œì„ ì‹œì‘ ë©”ì¸
 		Game game = new Game();
 		game.run();
-		//À§¿¡ °É °£·«È÷ ÇÏ¸é "new Game().run();"
+		//ìœ„ì— ê±¸ ê°„ëµíˆ í•˜ë©´ "new Game().run();"
 		
 		
 		

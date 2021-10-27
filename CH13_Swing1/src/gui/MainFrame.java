@@ -13,15 +13,15 @@ public class MainFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
 	public MainFrame(String title) {
-		super(title); // JFrameÀÇ Å¸ÀÌÆ²À» »ı¼ºÇÏµµ·Ï ÇÔ
+		super(title); // JFrameì˜ íƒ€ì´í‹€ì„ ìƒì„±í•˜ë„ë¡ í•¨
 		
-		setLayout(new BorderLayout()); 	   			// ¸ŞÀÎÇÁ·¹ÀÓÃ¢¿¡ ÄÄÆ÷³ÍÆ®¸¦ ºÙÀÌ±â À§ÇÔ.
-		add(new Toolbar(), BorderLayout.NORTH);		// ¸ŞÀÎÇÁ·¹ÀÓ Ã¢¿¡ ¹öÆ° »ı¼º.
-		add(new MainPanel(), BorderLayout.CENTER);  // ¸ŞÀÎÇÁ·¹ÀÓ¿¡ ºÙÀÌ±â(Áß¾Ó °¡¿îµ¥ À§Ä¡)
+		setLayout(new BorderLayout()); 	   			// ë©”ì¸í”„ë ˆì„ì°½ì— ì»´í¬ë„ŒíŠ¸ë¥¼ ë¶™ì´ê¸° ìœ„í•¨.
+		add(new Toolbar(), BorderLayout.NORTH);		// ë©”ì¸í”„ë ˆì„ ì°½ì— ë²„íŠ¼ ìƒì„±.
+		add(new MainPanel(), BorderLayout.CENTER);  // ë©”ì¸í”„ë ˆì„ì— ë¶™ì´ê¸°(ì¤‘ì•™ ê°€ìš´ë° ìœ„ì¹˜)
 		
-		setSize(600, 400); // Ã¢ »çÀÌÁî
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Ã¢À» ´İÀ» ¶§ ¹Ù·Î ÇÁ·Î±×·¥À» Á¾·á
-		setVisible(true); 		// º¸ÀÌ°Ô ¼³Á¤.
+		setSize(600, 400); // ì°½ ì‚¬ì´ì¦ˆ
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // ì°½ì„ ë‹«ì„ ë•Œ ë°”ë¡œ í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œ
+		setVisible(true); 		// ë³´ì´ê²Œ ì„¤ì •.
 		
 	}
 	

@@ -10,11 +10,11 @@ public class App {
 		
 		Speaker p2 = new Person();
 		p2.speak();
-		// p2.greet(); speak ÀÎÅÍÆäÀÌ½º¿¡ greet ¸Ş¼Òµå ¾øÀ½.
+		// p2.greet(); speak ì¸í„°í˜ì´ìŠ¤ì— greet ë©”ì†Œë“œ ì—†ìŒ.
 		
 		Greeter p3 = new Person();
 		p3.greet();
-		// p3.speak(); greet ÀÎÅÍÆäÀÌ½º¿¡ speak ¸Ş¼Òµå ¾øÀ½.
+		// p3.speak(); greet ì¸í„°í˜ì´ìŠ¤ì— speak ë©”ì†Œë“œ ì—†ìŒ.
 
 	}
 

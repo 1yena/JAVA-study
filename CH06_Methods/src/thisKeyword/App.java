@@ -6,7 +6,7 @@ public class App {
 		// 
 
 		Person p1 = new Person();
-		p1.setName("Æë¼ö");
+		p1.setName("íŽ­ìˆ˜");
 		p1.setAge(50);
 		
 		System.out.println(p1.getName());

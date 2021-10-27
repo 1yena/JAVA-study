@@ -12,10 +12,10 @@ public class App {
 		try {
 				stat.setTemperature(50);
 		} catch (TempTooHightException e) {
-			// 柯档啊 撤阑 版快 贸府 内靛
+			// 鞓弰臧� 雮潉 瓴届毎 觳橂Μ 旖旊摐
 			System.out.println(e.getMessage());
 		} catch (TempTooLowException e) {
-			// 柯档啊 臭阑 版快 贸府 内靛
+			// 鞓弰臧� 雴掛潉 瓴届毎 觳橂Μ 旖旊摐
 			System.out.println(e.getMessage());
 		}
 

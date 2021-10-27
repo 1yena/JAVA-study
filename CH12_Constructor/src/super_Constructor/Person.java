@@ -5,7 +5,7 @@ public class Person {
 	private String name;
 	
 	public Person(String name) {
-		System.out.println("»ç¶÷ »ı¼ºÀÚ!");
+		System.out.println("ì‚¬ëŒ ìƒì„±ì!");
 		this.name = name;
 	}
 	

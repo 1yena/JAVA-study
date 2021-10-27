@@ -12,7 +12,7 @@ public class MainFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 	
 	public MainFrame(String title) {
-		super(title); // JFrameÀÇ Å¸ÀÌÆ²À» »ı¼ºÇÏµµ·Ï ÇÔ
+		super(title); // JFrameì˜ íƒ€ì´í‹€ì„ ìƒì„±í•˜ë„ë¡ í•¨
 		
 		final MainPanel mainPanel = new MainPanel();
 		// mainPanel.setBackground(color.RED);
@@ -22,9 +22,9 @@ public class MainFrame extends JFrame {
 		add(mainPanel, BorderLayout.CENTER);
 		
 		
-		setSize(600, 400); 		// Ã¢ »çÀÌÁî
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Ã¢À» ´İÀ» ¶§ ¹Ù·Î ÇÁ·Î±×·¥À» Á¾·á
-		setVisible(true); 		// º¸ÀÌ°Ô ¼³Á¤.
+		setSize(600, 400); 		// ì°½ ì‚¬ì´ì¦ˆ
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // ì°½ì„ ë‹«ì„ ë•Œ ë°”ë¡œ í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œ
+		setVisible(true); 		// ë³´ì´ê²Œ ì„¤ì •.
 	}
 	
 }

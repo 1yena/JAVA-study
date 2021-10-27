@@ -3,26 +3,26 @@ package application;
 public class StringArray2 {
 
 	public static void main(String[] args) {
-		// stringÀº ±é¤¤ ÀÚ·áÇüÀÌ ¾Æ´Ñ ÂüÁ¶ ÀÚ·áÇü, ÂüÁ¶ º¯¼ö´Â ±âº»ÀûÀ¸·Î ÁÖ¼Ò°ªÀ» °®´Â´Ù.
+		// stringì€ ê¹ã„´ ìë£Œí˜•ì´ ì•„ë‹Œ ì°¸ì¡° ìë£Œí˜•, ì°¸ì¡° ë³€ìˆ˜ëŠ” ê¸°ë³¸ì ìœ¼ë¡œ ì£¼ì†Œê°’ì„ ê°–ëŠ”ë‹¤.
 
-		// ³ÎÀº ÂüÁ¶º¯¼ö¿¡ ÁÖ¼Ò°ªÀÌ ¾øÀ½.
+		// ë„ì€ ì°¸ì¡°ë³€ìˆ˜ì— ì£¼ì†Œê°’ì´ ì—†ìŒ.
 		String text = null;
 		
-		// text = new string("Çï·Î!"); new´Â ¸Ş¸ğ¸®¿¡ ¹®ÀÚ¿­ °ø°£À» ¸¸µê.
-		text = "Çï·Î!";
+		// text = new string("í—¬ë¡œ!"); newëŠ” ë©”ëª¨ë¦¬ì— ë¬¸ìì—´ ê³µê°„ì„ ë§Œë“¦.
+		text = "í—¬ë¡œ!";
 		System.out.println(text);
 		
 		String[] texts = null;
 		System.out.println(texts);
 		
-		texts = new String[3]; 		// 3°³ÀÇ ¹®ÀÚ¿­ ¹è¿­°ø°£À» »ı¼º.
-		System.out.println(texts);  // ¹è¿­ÀÇ ÁÖ¼Ò°ªÀ» Ãâ·Â.
+		texts = new String[3]; 		// 3ê°œì˜ ë¬¸ìì—´ ë°°ì—´ê³µê°„ì„ ìƒì„±.
+		System.out.println(texts);  // ë°°ì—´ì˜ ì£¼ì†Œê°’ì„ ì¶œë ¥.
 		
 		System.out.println("===========");
 		
-		texts[0] = new String("ÇÏÀÌ!");
-		texts[1] = "¾È³ç";
-		texts[2] = "±Â¹ÙÀÌ";
+		texts[0] = new String("í•˜ì´!");
+		texts[1] = "ì•ˆë…•";
+		texts[2] = "êµ¿ë°”ì´";
 		
 		for(String word: texts) {
 			

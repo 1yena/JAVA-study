@@ -4,7 +4,7 @@ public class Test {
 	String name;
 
 	public Test(String name) {
-		super(); //¸ğµç object Å¬·¡½º°¡ »óÀ§ »ı¼ºÀÚÀÌ±â ¶§¹®¿¡ ±âº»ÀûÀ¸·Î »ı·«µÇ¾î ÀÖÀ½.
+		super(); //ëª¨ë“  object í´ë˜ìŠ¤ê°€ ìƒìœ„ ìƒì„±ìì´ê¸° ë•Œë¬¸ì— ê¸°ë³¸ì ìœ¼ë¡œ ìƒëµë˜ì–´ ìˆìŒ.
 		this.name = name;
 	}
 }

@@ -3,13 +3,13 @@ package application;
 public class BooleanOr {
 
 	public static void main(String[] args) {
-		// ||(or) ³í¸®¿¬»êÀÚ
+		// ||(or) ë…¼ë¦¬ì—°ì‚°ì
 		
-		boolean isRaining = true; 		// ºñ°¡ ¿À´Â°¡?
-		boolean mightRain = false; 		// ºñ°¡ ¿Ã ¼öµµ ÀÖ´Â°¡?
-		boolean takeUmbrella = false; 	// ¿ì»êÀ» ¾²³ª?
+		boolean isRaining = true; 		// ë¹„ê°€ ì˜¤ëŠ”ê°€?
+		boolean mightRain = false; 		// ë¹„ê°€ ì˜¬ ìˆ˜ë„ ìˆëŠ”ê°€?
+		boolean takeUmbrella = false; 	// ìš°ì‚°ì„ ì“°ë‚˜?
 		
-		takeUmbrella = isRaining || mightRain; // ºñ°¡ ¿À°Å³ª ¶Ç´Â ¿Ã ¼öµµ ÀÖ´Â °æ¿ì : ÇÏ³ª¶óµµ ÂüÀÌ¸é °á°ú´Â Âü.
+		takeUmbrella = isRaining || mightRain; // ë¹„ê°€ ì˜¤ê±°ë‚˜ ë˜ëŠ” ì˜¬ ìˆ˜ë„ ìˆëŠ” ê²½ìš° : í•˜ë‚˜ë¼ë„ ì°¸ì´ë©´ ê²°ê³¼ëŠ” ì°¸.
 		
 		System.out.println(takeUmbrella);
 

@@ -3,17 +3,17 @@ package application;
 public class ControlCharacter {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ ¾È¿¡ ÀÖ´Â Á¦¾î¹®ÀÚ
+		// ë¬¸ìì—´ ì•ˆì— ìˆëŠ” ì œì–´ë¬¸ì
 		System.out.println("============================");
-		System.out.println("\tÅÇ\tÅÇ¸¸Å­ ¶ç¿ó´Ï´Ù.");
+		System.out.println("\tíƒ­\tíƒ­ë§Œí¼ ë„ì›ë‹ˆë‹¤.");
 		System.out.println("============================");
-		System.out.println("ÀÚ¹Ù¸¦\n¹è¿ì°í\nÀÖ½À´Ï´Ù.");
-		//[\t]´Â ÅÇ¸¸Å­ ¶ç¿ò
-		//[\n]Àº ÇÑ ÁÙÀ» ¶ç¿ò.
-		//[println]·Î Ãâ·ÂÇÏ¸é ÀÚµ¿À¸·Î ÇÑ ÁÙÀ» ¶ç¿ò
-		System.out.print("±×³É ÇÁ¸°Æ®´Â");
-		System.out.print(" ÁÙÀ» ¶ç¿ìÁö ¾Ê½À´Ï´Ù.");
-		//[print]´Â ÇÑ ÁÙ ¶ç¿ì´Â ±â´É ¾øÀ½.
+		System.out.println("ìë°”ë¥¼\në°°ìš°ê³ \nìˆìŠµë‹ˆë‹¤.");
+		//[\t]ëŠ” íƒ­ë§Œí¼ ë„ì›€
+		//[\n]ì€ í•œ ì¤„ì„ ë„ì›€.
+		//[println]ë¡œ ì¶œë ¥í•˜ë©´ ìë™ìœ¼ë¡œ í•œ ì¤„ì„ ë„ì›€
+		System.out.print("ê·¸ëƒ¥ í”„ë¦°íŠ¸ëŠ”");
+		System.out.print(" ì¤„ì„ ë„ìš°ì§€ ì•ŠìŠµë‹ˆë‹¤.");
+		//[print]ëŠ” í•œ ì¤„ ë„ìš°ëŠ” ê¸°ëŠ¥ ì—†ìŒ.
 	}
 
 }

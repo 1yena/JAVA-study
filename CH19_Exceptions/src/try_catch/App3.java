@@ -9,7 +9,7 @@ public class App3 {
 	public static void main(String[] args) {
 		
 		int number = getNumber();
-		System.out.println("ÀÔ·ÂÇÑ ¼ıÀÚ´Â : " + number);
+		System.out.println("ì…ë ¥í•œ ìˆ«ìëŠ” : " + number);
 		
 		
 		
@@ -19,20 +19,20 @@ public class App3 {
 	}
 
 	private static int getNumber() {
-		// ¼ıÀÚ¸¦ ÀÔ·Â¹ŞÀ» ¶§±îÁö ¹İº¹ÇÏ¿© ¼ıÀÚ¸¦ ÀÔ·Â¹Ş¾Æ ¸®ÅÏÇÏ´Â ¸Ş¼Òµå
+		// ìˆ«ìë¥¼ ì…ë ¥ë°›ì„ ë•Œê¹Œì§€ ë°˜ë³µí•˜ì—¬ ìˆ«ìë¥¼ ì…ë ¥ë°›ì•„ ë¦¬í„´í•˜ëŠ” ë©”ì†Œë“œ
 		
 		int number = 0;
-		boolean isNumber = false;	//¼ıÀÚÀÎ°¡ ? true or false
+		boolean isNumber = false;	//ìˆ«ìì¸ê°€ ? true or false
 		
 		do {
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·Â : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥ : ");
 		String line = scanner.nextLine();
 		
-		try { 	//¿¡·¯°¡ ³¯ ¼ö ÀÖ´Â ÄÚµå¸¦ try¹® ¾È¿¡ ³Ö´Â´Ù.
-			number = Integer.parseInt(line);	//¿©±â¼­ ¿¡·¯°¡ ³ªÁö ¾ÊÀ¸¸é ¼ıÀÚ ÀÔ·ÂÀÌ ¸ÂÀ½.
+		try { 	//ì—ëŸ¬ê°€ ë‚  ìˆ˜ ìˆëŠ” ì½”ë“œë¥¼ tryë¬¸ ì•ˆì— ë„£ëŠ”ë‹¤.
+			number = Integer.parseInt(line);	//ì—¬ê¸°ì„œ ì—ëŸ¬ê°€ ë‚˜ì§€ ì•Šìœ¼ë©´ ìˆ«ì ì…ë ¥ì´ ë§ìŒ.
 			isNumber = true;
-			} catch (NumberFormatException e) { 	//try¿¡¼­ ¿¡·¯ ¹ß»ı ½Ã catch¹®¿¡¼­ Ã³¸®ÇÑ´Ù.
-			System.out.println("¼ıÀÚ ÀÔ·ÂÀÌ ¾Æ´Õ´Ï´Ù.´«´©³­³ª");
+			} catch (NumberFormatException e) { 	//tryì—ì„œ ì—ëŸ¬ ë°œìƒ ì‹œ catchë¬¸ì—ì„œ ì²˜ë¦¬í•œë‹¤.
+			System.out.println("ìˆ«ì ì…ë ¥ì´ ì•„ë‹™ë‹ˆë‹¤.ëˆˆëˆ„ë‚œë‚˜");
 			}
 		} while(!isNumber);
 		

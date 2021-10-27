@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Scope {
 
 	public static void main(String[] args) {
-		// º¯¼öÀÇ ¹üÀ§´Â ÄÚµåºí·Ï{}À¸·Î °áÁ¤.
+		// ë³€ìˆ˜ì˜ ë²”ìœ„ëŠ” ì½”ë“œë¸”ë¡{}ìœ¼ë¡œ ê²°ì •.
 		{
 			int value = 0;
 			System.out.println(value);
 		}
-		// System.out.println(value); °ªÀº ÄÚµåºí·Ï ¹Û¿¡¼­ »ç¿ëºÒ°¡.
+		// System.out.println(value); ê°’ì€ ì½”ë“œë¸”ë¡ ë°–ì—ì„œ ì‚¬ìš©ë¶ˆê°€.
 		
 		
 		Scanner scanner = new Scanner(System.in);
@@ -23,10 +23,10 @@ public class Scope {
 		
 		do {
 		
-			System.out.println("Á¾·áÇÒ·Á¸é '±³¾ç¸¸µÎ'¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+			System.out.println("ì¢…ë£Œí• ë ¤ë©´ 'êµì–‘ë§Œë‘'ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 			input = scanner.nextLine();		
 			
-		} while(!input.equals("±³¾ç¸¸µÎ"));
+		} while(!input.equals("êµì–‘ë§Œë‘"));
 		
 		scanner.close();
 		

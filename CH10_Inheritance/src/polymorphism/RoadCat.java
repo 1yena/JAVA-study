@@ -3,7 +3,7 @@ package polymorphism;
 import polymorphism.Cat;
 
 public class RoadCat extends Cat {
-	// ±æ°í¾çÀÌ
+	// ê¸¸ê³ ì–‘ì´
 	
 	
 	

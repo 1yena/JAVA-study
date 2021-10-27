@@ -5,25 +5,25 @@ import java.util.Scanner;
 public class CheckPassDoWhile {
 
 	public static void main(String[] args) {
-		// ÆĞ½º¿öµå¸¦ ÀÔ·Â¹Ş¾Æ do while¹®À¸·Î ¸Â´ÂÁö °Ë»çÇÑ´Ù.
-		// ÆĞ½º¿öµå°¡ ¸ÂÀ» ¶§±îÁö ¹İº¹ÇÔ.
+		// íŒ¨ìŠ¤ì›Œë“œë¥¼ ì…ë ¥ë°›ì•„ do whileë¬¸ìœ¼ë¡œ ë§ëŠ”ì§€ ê²€ì‚¬í•œë‹¤.
+		// íŒ¨ìŠ¤ì›Œë“œê°€ ë§ì„ ë•Œê¹Œì§€ ë°˜ë³µí•¨.
 		
 		Scanner scan = new Scanner(System.in);
 		
-		final String pass1 = "Ä«Åå";
+		final String pass1 = "ì¹´í†¡";
 		
 		String password = null;
 		
 		do {
 			
-			System.out.print("Â÷¸¦ Åå Ä¡¸é ? > ");
+			System.out.print("ì°¨ë¥¼ í†¡ ì¹˜ë©´ ? > ");
 			password = scan.nextLine();
 			
-		} while (!password.equals(pass1)); // "!"´Â ¹İ´ë. => °ÅÁşÀÌ¸é ¹İº¹ÇÔ.
+		} while (!password.equals(pass1)); // "!"ëŠ” ë°˜ëŒ€. => ê±°ì§“ì´ë©´ ë°˜ë³µí•¨.
 		
 		scan.close();
 		
-		System.out.println("Á¢¼Ó ½ÂÀÎ.");
+		System.out.println("ì ‘ì† ìŠ¹ì¸.");
 		
 		
 	}

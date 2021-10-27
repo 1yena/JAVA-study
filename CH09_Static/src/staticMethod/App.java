@@ -3,21 +3,21 @@ package staticMethod;
 public class App {
 
 	public static void main(String[] args) {
-		// static ¸Ş¼Òµå getCount »ç¿ë
+		// static ë©”ì†Œë“œ getCount ì‚¬ìš©
 		
-		// String.formatÀº printf¸¦ ¹®ÀÚ¿­·Î ¸®ÅÏµÊ.
-		String catCount = String.format("°í¾çÀÌ ¼ıÀÚ : %d\n", Cat.getCount());
+		// String.formatì€ printfë¥¼ ë¬¸ìì—´ë¡œ ë¦¬í„´ë¨.
+		String catCount = String.format("ê³ ì–‘ì´ ìˆ«ì : %d\n", Cat.getCount());
 		System.out.println(catCount);
 		
-		Cat cat1 = new Cat("¸¶");
-		Cat cat2 = new Cat("¶ó");
-		Cat cat3 = new Cat("ÅÁ");
+		Cat cat1 = new Cat("ë§ˆ");
+		Cat cat2 = new Cat("ë¼");
+		Cat cat3 = new Cat("íƒ•");
 		
 		System.out.println(cat1);
 		System.out.println(cat2);
 		System.out.println(cat3);
 		
-		catCount = String.format("°í¾çÀÌ ¼ıÀÚ : %d\n", Cat.getCount());
+		catCount = String.format("ê³ ì–‘ì´ ìˆ«ì : %d\n", Cat.getCount());
 		System.out.println(catCount);
 		
 		int x = add(10, 2);

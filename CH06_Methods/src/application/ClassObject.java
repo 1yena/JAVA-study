@@ -1,6 +1,6 @@
 package application;
 
-// Å¬·¡½º »ı¼º.
+// í´ë˜ìŠ¤ ìƒì„±.
 class Person {
 	String name;
 }
@@ -8,13 +8,13 @@ class Person {
 public class ClassObject {
 
 	public static void main(String[] args) {
-		// Å¬·¡½º ¼³°èµµ·Î ½ÇÁ¦ »ç¿ë°¡´ÉÇÑ °´Ã¼¸¦ »ı¼ºÇÔ(¸Ş¸ğ¸®¿¡ »ı¼º)
+		// í´ë˜ìŠ¤ ì„¤ê³„ë„ë¡œ ì‹¤ì œ ì‚¬ìš©ê°€ëŠ¥í•œ ê°ì²´ë¥¼ ìƒì„±í•¨(ë©”ëª¨ë¦¬ì— ìƒì„±)
 		
-		Person p1 = new Person(); // ½ÇÁ¦ °´Ã¼¸¦ »ı¼ºÇÑ´Ù. ("new x();")
-		p1.name = "Æë¼ö";
+		Person p1 = new Person(); // ì‹¤ì œ ê°ì²´ë¥¼ ìƒì„±í•œë‹¤. ("new x();")
+		p1.name = "í­ìˆ˜";
 
-		Person p2 = new Person(); // ½ÇÁ¦ °´Ã¼¸¦ »ı¼ºÇÑ´Ù. ("new x();")
-		p2.name = "±æµ¿";
+		Person p2 = new Person(); // ì‹¤ì œ ê°ì²´ë¥¼ ìƒì„±í•œë‹¤. ("new x();")
+		p2.name = "ê¸¸ë™";
 		
 		System.out.println(p1.name);
 		System.out.println(p2.name);

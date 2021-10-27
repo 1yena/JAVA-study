@@ -3,12 +3,12 @@ package application;
 public class Printing {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­Àº +(´õÇÏ±â) °¡´É Printing
+		// ë¬¸ìì—´ì€ +(ë”í•˜ê¸°) ê°€ëŠ¥ Printing
 		
-		String name = "È«±æµ¿";
-		System.out.println("³» ÀÌ¸§Àº "+name);
+		String name = "í™ê¸¸ë™";
+		System.out.println("ë‚´ ì´ë¦„ì€ "+name);
 		
-		String text = "³ªÀÇ ÀÌ¸§Àº: ";
+		String text = "ë‚˜ì˜ ì´ë¦„ì€: ";
 		String endOfSentence = ".";
 		
 		System.out.println(text + name + endOfSentence);

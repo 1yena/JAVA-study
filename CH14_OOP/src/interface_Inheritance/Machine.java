@@ -3,8 +3,8 @@ package interface_Inheritance;
 public class Machine implements DefaultRunnable {
 
 	@Override
-	public void run() { // 'Runnable'¿¡¼­ °¡Á®¿È
-		System.out.println("¸Ó½Å ·¯´×!");
+	public void run() { // 'Runnable'ì—ì„œ ê°€ì ¸ì˜´
+		System.out.println("ë¨¸ì‹  ëŸ¬ë‹!");
 		
 	}
 

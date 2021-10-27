@@ -5,8 +5,8 @@ public class App {
 	private String name;
 	
 	public App() {
-		// ±âº» »ı¼ºÀÚ
-		name = "¿¤¸®ÀÚ";
+		// ê¸°ë³¸ ìƒì„±ì
+		name = "ì—˜ë¦¬ì";
 	}
 	
 	public String getName() {
@@ -18,19 +18,19 @@ public class App {
 		
 		class Pt1 { 
 			public void pri() {
-				System.out.println(name); 	// nameÀ» Ãâ·Â
-				// ³»ºÎÅ¬·¡½º¿¡¼­ ¿ÜºÎÅ¬·¡½º º¯¼ö »ç¿ë°¡´É
+				System.out.println(name); 	// nameì„ ì¶œë ¥
+				// ë‚´ë¶€í´ë˜ìŠ¤ì—ì„œ ì™¸ë¶€í´ë˜ìŠ¤ ë³€ìˆ˜ ì‚¬ìš©ê°€ëŠ¥
 			}
 		}
 		//Pt1 p = new Pt1();
 		//p.pri();
-		new Pt1().pri(); // À§ ÁÙÀ» °£·«È÷ ÇÔ.
+		new Pt1().pri(); // ìœ„ ì¤„ì„ ê°„ëµíˆ í•¨.
 	}
 
 	
 	public static void main(String[] args) {
-		// ¸Ş¼Òµå ¾ÈÀÇ Å¬·¡½º
-		// System.out.println(name); ÀÌ·¸°Õ »ç¿ë ¾È µÊ. 
+		// ë©”ì†Œë“œ ì•ˆì˜ í´ë˜ìŠ¤
+		// System.out.println(name); ì´ë ‡ê² ì‚¬ìš© ì•ˆ ë¨. 
 		
 		App app = new App();
 		app.run();

@@ -3,16 +3,16 @@ package application;
 public class Printf {
 
 	public static void main(String[] args) {
-		// printf("Ãâ·Â¼­½Ä(%d(Á¤¼ö), %f(½Ç¼ö), %c(¹®ÀÚÇü½Ä), %s(¹®ÀÚ¿­))", Ãâ·ÂÇÒ°ª)
+		// printf("ì¶œë ¥ì„œì‹(%d(ì •ìˆ˜), %f(ì‹¤ìˆ˜), %c(ë¬¸ìí˜•ì‹), %s(ë¬¸ìì—´))", ì¶œë ¥í• ê°’)
 		int age = 25;
-		String addr = "ºÎ»ê";
+		String addr = "ë¶€ì‚°";
 		double pi = 3.14592;
 		
 		
-		System.out.printf("³» ³ªÀÌ´Â %d»ìÀÔ´Ï´Ù\n", age);
-		System.out.printf("³» ³ªÀÌ´Â %d»ìÀÌ°í %s¿¡ »ì°í ÀÖ½À´Ï´Ù\n", age, addr);
-		System.out.printf("ÆÄÀÌÀÇ °ªÀº %f", pi); 
-		System.out.printf("ÆÄÀÌÀÇ °ªÀº %.2f", pi); // %-f »çÀÌ¿¡ [.x]°ªÀ» ³ÖÀ¸¸é ¼Ò¼öÁ¡ À§Ä¡ ¼³Á¤ °¡´É.
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ì…ë‹ˆë‹¤\n", age);
+		System.out.printf("ë‚´ ë‚˜ì´ëŠ” %dì‚´ì´ê³  %sì— ì‚´ê³  ìˆìŠµë‹ˆë‹¤\n", age, addr);
+		System.out.printf("íŒŒì´ì˜ ê°’ì€ %f", pi); 
+		System.out.printf("íŒŒì´ì˜ ê°’ì€ %.2f", pi); // %-f ì‚¬ì´ì— [.x]ê°’ì„ ë„£ìœ¼ë©´ ì†Œìˆ˜ì  ìœ„ì¹˜ ì„¤ì • ê°€ëŠ¥.
 
 	}
 

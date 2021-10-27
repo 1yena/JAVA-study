@@ -5,31 +5,31 @@ import java.util.Scanner;
 public class Ex1 {
 
 	public static void main(String[] args) {
-		// ¿¹Á¦ 1
+		// ì˜ˆì œ 1
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		final int num = 5; //¹è¿­ÀÇ Å©±â(¾ÆÀÌÅÛÀÇ °³¼ö)
+		final int num = 5; //ë°°ì—´ì˜ í¬ê¸°(ì•„ì´í…œì˜ ê°œìˆ˜)
 		
 		int[] number = new int[num];
 		
 		for(int i=0; i<num; i++) {
-			System.out.print("¼ıÀÚ¸¦ ÀÔ·Â : ");
+			System.out.print("ìˆ«ìë¥¼ ì…ë ¥ : ");
 			number[i] = scanner.nextInt();
 		}
 		
 		scanner.close();
 		
-		int total = 0; // ¼ıÀÚÀÇ ÇÕÀ» °è»êÇÒ º¯¼ö
+		int total = 0; // ìˆ«ìì˜ í•©ì„ ê³„ì‚°í•  ë³€ìˆ˜
 		
 		for(int i=0; i<num; i++) {
 			
 			System.out.println(number[i]);
-			total = total + number[i]; //¹è¿­ ¾ÆÀÌÅÛÀÇ ÇÏ³ªÇÏ³ªÀÇ °ªÀ» ´õÇÔ.
+			total = total + number[i]; //ë°°ì—´ ì•„ì´í…œì˜ í•˜ë‚˜í•˜ë‚˜ì˜ ê°’ì„ ë”í•¨.
 					
 		}
 
-		System.out.println("ÇÕ°è : " + total);
+		System.out.println("í•©ê³„ : " + total);
 		
 	}
 

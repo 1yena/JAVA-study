@@ -5,12 +5,12 @@ public class Thermostat {
 	public void setTemperature(double temperaure) throws Exception {
 		
 		if(temperaure < 0 || temperaure > 35) {
-			//¿Âµµ°ªÀÌ ºñÁ¤»óÀ¸·Î ¿©°Ü¼­ ¿¹¿ÜÃ³¸®ÇÑ´Ù.
-			//throw´Â ÀÏ´Ü ¿¹¿Ü¸¦ ³ªÁß¿¡ Ã³¸®ÇÑ´Ù.(ÀÌ ¸Ş¼Òµå¸¦ È£ÃâÇÒ ¶§ Ã³¸®ÇÔ.)
-			throw new Exception("¿Âµµ°¡ ºñÁ¤»óÀÔ´Ï´Ù."); 	// ¿¹¿Ü¸¦ »ı¼ºÇÔ.
+			//ì˜¨ë„ê°’ì´ ë¹„ì •ìƒìœ¼ë¡œ ì—¬ê²¨ì„œ ì˜ˆì™¸ì²˜ë¦¬í•œë‹¤.
+			//throwëŠ” ì¼ë‹¨ ì˜ˆì™¸ë¥¼ ë‚˜ì¤‘ì— ì²˜ë¦¬í•œë‹¤.(ì´ ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•  ë•Œ ì²˜ë¦¬í•¨.)
+			throw new Exception("ì˜¨ë„ê°€ ë¹„ì •ìƒì…ë‹ˆë‹¤."); 	// ì˜ˆì™¸ë¥¼ ìƒì„±í•¨.
 		}
 		
-		System.out.println("¿Âµµ ¼¼ÆÃÀº : " + temperaure); //¿Âµµ°¡ Á¤»óÀÏ °æ¿ì Ãâ·Â
+		System.out.println("ì˜¨ë„ ì„¸íŒ…ì€ : " + temperaure); //ì˜¨ë„ê°€ ì •ìƒì¼ ê²½ìš° ì¶œë ¥
 	}
 
 }

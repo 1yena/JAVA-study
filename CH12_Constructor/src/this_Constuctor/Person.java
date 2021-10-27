@@ -6,7 +6,7 @@ public class Person {
 	private int age;
 	
 	public Person() {
-		this("¸ğ¸§", 0);
+		this("ëª¨ë¦„", 0);
 	}
 	
 	public Person(String name) {
@@ -14,7 +14,7 @@ public class Person {
 	}
 	
 	public Person(int age) {
-		this("ÀÍ¸í", age);
+		this("ìµëª…", age);
 	}
 	
 	public Person(String name, int age) {

@@ -3,10 +3,10 @@ package super_Constructor;
 public class Employee extends Person {
 	
 	public Employee() {
-		super("ÀÍ¸í");
-		//°¡ »ı·«µÇ¾î ÀÖÀ½==ºÎ¸ğÅ¬·¡½º(Person»ı¼ºÀÚ)°¡ »ı·«µÇ¾î ÀÖ´Ù
-		// µû¶ó¼­ Person »ı¼ºÀÚ¸¦ ¸ÕÀú ½ÇÇàµÇ°í Employee(); »ı¼ºÀÚ°¡ ½ÇÇàµÊ.
-		System.out.println("emp »ı¼ºÀÚ");
+		super("ìµëª…");
+		//ê°€ ìƒëµë˜ì–´ ìˆìŒ==ë¶€ëª¨í´ë˜ìŠ¤(Personìƒì„±ì)ê°€ ìƒëµë˜ì–´ ìˆë‹¤
+		// ë”°ë¼ì„œ Person ìƒì„±ìë¥¼ ë¨¼ì € ì‹¤í–‰ë˜ê³  Employee(); ìƒì„±ìê°€ ì‹¤í–‰ë¨.
+		System.out.println("emp ìƒì„±ì");
 	}
 
 }

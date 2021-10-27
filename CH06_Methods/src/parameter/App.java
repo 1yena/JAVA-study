@@ -3,20 +3,20 @@ package parameter;
 public class App {
 
 	public static void main(String[] args) {
-		// Ä®Å§·¹ÀÌÅÍ °´Ã¼¸¦ ¸¸µç ÈÄ ±× ¸Ş¼Òµå square¸¦ ¸Å°³º¯¼ö¸¦ ÀÔ·ÂÇÏ¿© »ç¿ëÇÑ´Ù.
+		// ì¹¼í˜ë ˆì´í„° ê°ì²´ë¥¼ ë§Œë“  í›„ ê·¸ ë©”ì†Œë“œ squareë¥¼ ë§¤ê°œë³€ìˆ˜ë¥¼ ì…ë ¥í•˜ì—¬ ì‚¬ìš©í•œë‹¤.
 		
 		Calculator calc = new Calculator();
 		
 		int number = 7;
 		
 		int result = calc.square(number);
-		System.out.printf("%d ÀÇ Á¦°öÀº %dÀÌ´Ù.\n", number, result);
+		System.out.printf("%d ì˜ ì œê³±ì€ %dì´ë‹¤.\n", number, result);
 		
 		result = calc.plus(10, 20);
-		System.out.printf("µÎ ¼öÀÇ ÇÕÀº %dÀÌ´Ù.\n", result);
+		System.out.printf("ë‘ ìˆ˜ì˜ í•©ì€ %dì´ë‹¤.\n", result);
 		
 		result = calc.minus(80, 30);
-		System.out.printf("µÎ ¼öÀÇ Â÷´Â %dÀÌ´Ù.", result);
+		System.out.printf("ë‘ ìˆ˜ì˜ ì°¨ëŠ” %dì´ë‹¤.", result);
 
 	}
 

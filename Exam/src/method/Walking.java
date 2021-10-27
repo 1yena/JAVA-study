@@ -3,15 +3,15 @@ package method;
 public class Walking {
 
 	public static void main(String[] args) {
-		// 1. Ä®·Î¸® °è¤¿¤¤À» À§ÇØ ¸Ş¼Òµå¸¦ È£ÃâÇÏ½Ã¿À.
-		// 2. °á°ú¸¦ Ãâ·ÂÇÏ½Ã¿À.
+		// 1. ì¹¼ë¡œë¦¬ ê³„ã…ã„´ì„ ìœ„í•´ ë©”ì†Œë“œë¥¼ í˜¸ì¶œí•˜ì‹œì˜¤.
+		// 2. ê²°ê³¼ë¥¼ ì¶œë ¥í•˜ì‹œì˜¤.
 		
 		double myCal = calori(800);
-		System.out.println("¼Ò¸ğÄ®·Î¸® : " + myCal + " kcal");
+		System.out.println("ì†Œëª¨ì¹¼ë¡œë¦¬ : " + myCal + " kcal");
 	
 	}
 	
-	// 2. Ä®·Î¸® °è»ê ¸Ş¼Òµå¸¦ Á¤ÀÇÇÏ½Ã¿À.
+	// 2. ì¹¼ë¡œë¦¬ ê³„ì‚° ë©”ì†Œë“œë¥¼ ì •ì˜í•˜ì‹œì˜¤.
 	public static double calori(int walk) {
 		double result = walk*0.02;
 		return result;

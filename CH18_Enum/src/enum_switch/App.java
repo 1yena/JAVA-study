@@ -4,20 +4,20 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Fruit f1 = Fruit.²¿³Å;
+		Fruit f1 = Fruit.ê¼¬ëƒ‘;
 		
 		switch (f1) {
 		case ORANGE:
-			System.out.println("¿À·»Áö");
+			System.out.println("ì˜¤ë Œì§€");
 			break;
 		case BANANA:
-			System.out.println("¹Ù³ª³ª");
+			System.out.println("ë°”ë‚˜ë‚˜");
 			break;
 		case APPLE:
-			System.out.println("»ç°ú");
+			System.out.println("ì‚¬ê³¼");
 			break;
 		default:
-			System.out.println("¾ø´Â °úÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì—†ëŠ” ê³¼ì¼ì…ë‹ˆë‹¤.");
 			break;
 			
 			

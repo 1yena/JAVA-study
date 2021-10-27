@@ -6,25 +6,25 @@ public class Person {
 	private int age;
 	
 	public Person() {
-		System.out.println("¼¼¹ßÄ¡°¡ »ı¼ºµÊ!");
-		name = "¸ğ¸§";
+		System.out.println("ì„¸ë°œì¹˜ê°€ ìƒì„±ë¨!");
+		name = "ëª¨ë¦„";
 		age = 0;
 	}
 	
 	public Person(String name) {
-		System.out.println("±ÃÀÌ°¡ »ı¼ºµÊ!");
+		System.out.println("ê¶ì´ê°€ ìƒì„±ë¨!");
 		this.name = name;
 		age = 0;
 	}
 	
 	public Person(int age) {
-		System.out.println("¿À±¸°¡ »ı¼ºµÊ!");
-		this.name = "¸ğ¸§";
+		System.out.println("ì˜¤êµ¬ê°€ ìƒì„±ë¨!");
+		this.name = "ëª¨ë¦„";
 		this.age = age;
 	}
 	
 	public Person(String name, int age) {
-		System.out.println("»ç¶÷ÀÌ »ı¼ºµÊ!");
+		System.out.println("ì‚¬ëŒì´ ìƒì„±ë¨!");
 		this.name = name;
 		this.age = age;
 	}

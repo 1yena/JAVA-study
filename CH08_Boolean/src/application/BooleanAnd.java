@@ -3,31 +3,31 @@ package application;
 public class BooleanAnd {
 
 	public static void main(String[] args) {
-		// [ ==(°°´Ù), !=(°°Áö¾Ê´Ù), !(¹İ´ë), &&(and), ||(or) ]
+		// [ ==(ê°™ë‹¤), !=(ê°™ì§€ì•Šë‹¤), !(ë°˜ëŒ€), &&(and), ||(or) ]
 		
-		boolean isRaining = false; 		// ºñ°¡ ¿À´Â°¡?
-		boolean haveUmbrella = true; 	// ¿ì»êÀÌ ÀÖ´Â°¡?
-		boolean takeUmbrella = false; 	// ¿ì»êÀ» ¾²³ª?
+		boolean isRaining = false; 		// ë¹„ê°€ ì˜¤ëŠ”ê°€?
+		boolean haveUmbrella = true; 	// ìš°ì‚°ì´ ìˆëŠ”ê°€?
+		boolean takeUmbrella = false; 	// ìš°ì‚°ì„ ì“°ë‚˜?
 		
 		
-		// 1. ºñ°¡ ¿À°í ¿ì»êÀÌ ÀÖÀ¸¸é takeUmbrella´Â true´Ù. (ºñ°¡ ¿À°í ¿ì»êÀÌ ÀÖÀ¸¸é ¿ì»êÀ» ¾´´Ù.)
+		// 1. ë¹„ê°€ ì˜¤ê³  ìš°ì‚°ì´ ìˆìœ¼ë©´ takeUmbrellaëŠ” trueë‹¤. (ë¹„ê°€ ì˜¤ê³  ìš°ì‚°ì´ ìˆìœ¼ë©´ ìš°ì‚°ì„ ì“´ë‹¤.)
 		if(isRaining) {
 			if(haveUmbrella) {
 				takeUmbrella = true;
 			}
 		} 
-		System.out.println("Ã¹¹øÂ° °æ¿ì : " + takeUmbrella);
+		System.out.println("ì²«ë²ˆì§¸ ê²½ìš° : " + takeUmbrella);
 		
-		// 1-1. Ã¹¹øÂ° °æ¿ì¸¦ And (&&) ¿¬»êÀÚ·Î »ç¿ë.
+		// 1-1. ì²«ë²ˆì§¸ ê²½ìš°ë¥¼ And (&&) ì—°ì‚°ìë¡œ ì‚¬ìš©.
 		if(isRaining && haveUmbrella) {
 			takeUmbrella = true;
 		}
-		System.out.println("And »ç¿ë½Ã : " + takeUmbrella);
+		System.out.println("And ì‚¬ìš©ì‹œ : " + takeUmbrella);
 		
-		// 1-2. Ã¹¹øÂ° °æ¿ì¸¦ »ïÇ×Á¶°Ç ¿¬»êÀÚ·Î »ç¿ë.
+		// 1-2. ì²«ë²ˆì§¸ ê²½ìš°ë¥¼ ì‚¼í•­ì¡°ê±´ ì—°ì‚°ìë¡œ ì‚¬ìš©.
 		takeUmbrella = isRaining && haveUmbrella ? true : false;
 		
-		System.out.println("»ïÇ×Á¶°Ç »ç¿ë½Ã : " + takeUmbrella);
+		System.out.println("ì‚¼í•­ì¡°ê±´ ì‚¬ìš©ì‹œ : " + takeUmbrella);
 		
 	}
 

@@ -1,6 +1,6 @@
 package interfaes;
 
 public interface Describable {
-	String getDescription(); // "public abstract"°¡ »ı·«µÊ. ÀÎÅÍÆäÀÌ½º¿¡ ¸Ş¼Òµå´Â ¸ğµÎ Ãß»ó¸Ş¼ÒµåÀÌ´Ù.
+	String getDescription(); // "public abstract"ê°€ ìƒëµë¨. ì¸í„°í˜ì´ìŠ¤ì— ë©”ì†Œë“œëŠ” ëª¨ë‘ ì¶”ìƒë©”ì†Œë“œì´ë‹¤.
 
 }

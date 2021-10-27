@@ -3,22 +3,22 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		// °í¾çÀÌ Å¬·¡½º ºÒ·¯¿À±â
+		// ê³ ì–‘ì´ í´ë˜ìŠ¤ ë¶ˆëŸ¬ì˜¤ê¸°
 		
-		Cat cat1 = new Cat("¸¶");	//count++
-		Cat cat2 = new Cat("¶ó");	//count++
+		Cat cat1 = new Cat("ë§ˆ");	//count++
+		Cat cat2 = new Cat("ë¼");	//count++
 				
 		System.out.println(cat1);
 		System.out.println(cat2);
 		
-		// static º¯¼ö´Â °´Ã¼¿Í »ó°ü¾øÀÌ (Å¬·¡½º¸í.º¯¼ö¸í)À¸·Î »ç¿ëÇÑ´Ù. °´Ã¼ »ı¼ºÇÒ ÇÊ¿ä¾øÀ½.
+		// static ë³€ìˆ˜ëŠ” ê°ì²´ì™€ ìƒê´€ì—†ì´ (í´ë˜ìŠ¤ëª….ë³€ìˆ˜ëª…)ìœ¼ë¡œ ì‚¬ìš©í•œë‹¤. ê°ì²´ ìƒì„±í•  í•„ìš”ì—†ìŒ.
 		System.out.println(Cat.FOOD);
 		System.out.println(Math.PI);
 		
 		System.out.println(cat1.getCount());
 		System.out.println(cat2.getCount());
 		
-		Cat cat3 = new Cat("ÅÁ");	//count++
+		Cat cat3 = new Cat("íƒ•");	//count++
 		System.out.println(cat3);
 		System.out.println(cat3.getCount());
 		

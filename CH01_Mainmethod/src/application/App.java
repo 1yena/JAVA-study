@@ -3,13 +3,13 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		// ¸ŞÀÎ¸Ş¼Òµå¿¡¼­ ÇÁ·Î±×·¥ ½ÃÀÛ
-		// ÀÚµ¿Á¤·Ä ´ÜÃàÅ° : Ctrl + Shift + F
-		// ½ÇÇà(run app) ´ÜÃàÅ° : Ctrl + F11
+		// ë©”ì¸ë©”ì†Œë“œì—ì„œ í”„ë¡œê·¸ë¨ ì‹œì‘
+		// ìë™ì •ë ¬ ë‹¨ì¶•í‚¤ : Ctrl + Shift + F
+		// ì‹¤í–‰(run app) ë‹¨ì¶•í‚¤ : Ctrl + F11
 		
-		System.out.println("¾È³çÇÏ¼¼¿ä");
-		System.out.println("»õ ÀÚ¹Ù ÇÁ·Î±×·¥À»");
-		System.out.println("½ÇÇàÇÕ´Ï´Ù.");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”");
+		System.out.println("ìƒˆ ìë°” í”„ë¡œê·¸ë¨ì„");
+		System.out.println("ì‹¤í–‰í•©ë‹ˆë‹¤.");
 		
 	}
 

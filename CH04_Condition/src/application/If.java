@@ -3,17 +3,17 @@ package application;
 public class If {
 
 	public static void main(String[] args) {
-		// IF¹®
+		// IFë¬¸
 		int apples = 10;
 		int banana = 5;
 		
 		if(apples < banana) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ªº¸´Ù ¸¹À½.");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ë³´ë‹¤ ë§ŽìŒ.");
 		}
-		// if¹® ¾ÈÀÇ Á¶°ÇÀÌ ÂüÀÌ¸é ¸í·É¾î°¡ ½ÇÇàÀÌ µÇ°í °ÅÁþÀÌ¸é ½ÇÇàÀÌ ¾È µÊ.
+		// ifë¬¸ ì•ˆì˜ ì¡°ê±´ì´ ì°¸ì´ë©´ ëª…ë ¹ì–´ê°€ ì‹¤í–‰ì´ ë˜ê³  ê±°ì§“ì´ë©´ ì‹¤í–‰ì´ ì•ˆ ë¨.
 		
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á.");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ.");
 
 	}
 

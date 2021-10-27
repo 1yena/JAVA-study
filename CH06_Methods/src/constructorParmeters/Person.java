@@ -5,21 +5,21 @@ public class Person {
 	private String name;
 	private double height;
 	
-	//±âº»»ı¼ºÀÚ
+	//ê¸°ë³¸ìƒì„±ì
 	public Person() {
-		name = "½Å¿ø¹Ì»ó";
+		name = "ì‹ ì›ë¯¸ìƒ";
 		height = 0.0;
-		System.out.println("¸ğ¸£´Â »ç¶÷À» »ı¼º!");
+		System.out.println("ëª¨ë¥´ëŠ” ì‚¬ëŒì„ ìƒì„±!");
 	}
 	
-	//»ı¼ºÀÚ(ÀÌ¸§, Å°)
+	//ìƒì„±ì(ì´ë¦„, í‚¤)
 	public Person(String name, double height) {
 		this.name = name;
 		this.height = height;
-		System.out.println("ÇÑ »ç¶÷À» »ı¼º!");
+		System.out.println("í•œ ì‚¬ëŒì„ ìƒì„±!");
 	}
 	
-	//get, set ¸Ş¼Òµå
+	//get, set ë©”ì†Œë“œ
 	public void setName(String name) {
 			this.name = name;		
 		}
@@ -34,7 +34,7 @@ public class Person {
 	}	
 	
 	public String toString( ) {
-		String text = "ÀÌ¸§ : " + name + "," + " Å° : " + height + "cm";
+		String text = "ì´ë¦„ : " + name + "," + " í‚¤ : " + height + "cm";
 		return text;
 	}
 

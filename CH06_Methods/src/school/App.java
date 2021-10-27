@@ -4,10 +4,10 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Student s1 = new Student("Â¡¾î", 7, true, 36.5);
-		Student s2 = new Student("¿ÀÂ¡¾î", 17, false, 30);
-		Student s3 = new Student("Â¡Â¡¾î", 27, true, 37.7);
-		Student s4 = new Student(); // ±âº»»ı¼ºÀÚ °ª
+		Student s1 = new Student("ì§•ì–´", 7, true, 36.5);
+		Student s2 = new Student("ì˜¤ì§•ì–´", 17, false, 30);
+		Student s3 = new Student("ì§•ì§•ì–´", 27, true, 37.7);
+		Student s4 = new Student(); // ê¸°ë³¸ìƒì„±ì ê°’
 		
 		System.out.println(s1.toString());
 		System.out.println(s2.toString());

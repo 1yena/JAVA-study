@@ -3,9 +3,9 @@ package game.Objects;
 public class Rock extends GameObject{
 	
 	public Rock() {
-		// ¹ÙÀ§ °´Ã¼ »ı¼º
+		// ë°”ìœ„ ê°ì²´ ìƒì„±
 		setId(1);
-		setName("¹¬");
+		setName("ë¬µ");
 		
 	}
 	

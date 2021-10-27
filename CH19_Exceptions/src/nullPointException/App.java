@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class App {
 
 	public static void main(String[] args) {
-		// ³ÎÆ÷ÀÎÆ®, 0À¸·Î ³ª´©¾úÀ» ¶§ => ·±Å¸ÀÓ ¿¹¿Ü ¹ß»ı
-		// 1¹ø. 0À¸·Î ³ª´©¾úÀ» ¶§ 
+		// ë„í¬ì¸íŠ¸, 0ìœ¼ë¡œ ë‚˜ëˆ„ì—ˆì„ ë•Œ => ëŸ°íƒ€ì„ ì˜ˆì™¸ ë°œìƒ
+		// 1ë²ˆ. 0ìœ¼ë¡œ ë‚˜ëˆ„ì—ˆì„ ë•Œ 
 		try {
 			System.out.println(5/0);
 		} catch (ArithmeticException e) {
-			System.out.println("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		}
 		
-		// 2¹ø. °´Ã¼ÀÇ ÁÖ¼Ò°ªÀÌ ³Î(null)ÀÏ ¶§!! -- Æ¯È÷ ¸¹ÀÌ ¹ß»ı
+		// 2ë²ˆ. ê°ì²´ì˜ ì£¼ì†Œê°’ì´ ë„(null)ì¼ ë•Œ!! -- íŠ¹íˆ ë§ì´ ë°œìƒ
 		Scanner scanner = null; 	// new Scanner(System.in);
 		
 		try {
 			scanner.nextLine();
 			scanner.close();
 		} catch (NullPointerException e) {
-			System.out.println("°´Ã¼ÀÇ °ªÀÌ ³ÎÀÔ´Ï´Ù.");
+			System.out.println("ê°ì²´ì˜ ê°’ì´ ë„ì…ë‹ˆë‹¤.");
 		}
 		
 

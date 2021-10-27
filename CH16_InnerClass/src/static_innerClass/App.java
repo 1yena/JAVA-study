@@ -6,13 +6,13 @@ public class App {
 		Person p1 = new Person();
 		p1.print();
 		
-		// ÀÌ³ÊÅ¬·¡½º (°´Ã¼¸¦ ¸¸µé ¶§µµ ¸ÕÀú ¿ÜºÎÅ¬·¡½º °´Ã¼¸¦ ¸¸µé°í ¸¸µé ¼ö ÀÖ´Ù.)
+		// ì´ë„ˆí´ë˜ìŠ¤ (ê°ì²´ë¥¼ ë§Œë“¤ ë•Œë„ ë¨¼ì € ì™¸ë¶€í´ë˜ìŠ¤ ê°ì²´ë¥¼ ë§Œë“¤ê³  ë§Œë“¤ ìˆ˜ ìˆë‹¤.)
 		Person.Head head = p1.new Head();
 		head.print();
 		
 		
 		
-		//static ÀÌ³ÊÅ¬·¡½º ¿ÜºÎ°´Ã¼¿¡¼­ ¹Ù·Î .Body();
+		//static ì´ë„ˆí´ë˜ìŠ¤ ì™¸ë¶€ê°ì²´ì—ì„œ ë°”ë¡œ .Body();
 		Person.Body body = new Person.Body();
 		body.print();
 		

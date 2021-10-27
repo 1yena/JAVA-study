@@ -3,18 +3,18 @@ package application;
 public class StringArray {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­·Î ¸¸µå´Â ¹è¿­
+		// ë¬¸ìì—´ë¡œ ë§Œë“œëŠ” ë°°ì—´
 		
-		String[] animals = { "Áı", "¿¡", "°¡", "ÀÚ" };
+		String[] animals = { "ì§‘", "ì—", "ê°€", "ì" };
 		
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);
 		System.out.println(animals[2]);
 		System.out.println(animals[3]);
 		
-		//System.out.println(animals[4]); ¾ø´Â °ªÀ» Ãâ·ÂÇÏ¸é ¿¡·¯°¡ ³².
+		//System.out.println(animals[4]); ì—†ëŠ” ê°’ì„ ì¶œë ¥í•˜ë©´ ì—ëŸ¬ê°€ ë‚¨.
 		
-		animals[0] = "´ßÀå"; //ÁıÀ» ´ßÀåÀ¸·Î ´Ù½Ã ¼±¾ğ.
+		animals[0] = "ë‹­ì¥"; //ì§‘ì„ ë‹­ì¥ìœ¼ë¡œ ë‹¤ì‹œ ì„ ì–¸.
 				
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);

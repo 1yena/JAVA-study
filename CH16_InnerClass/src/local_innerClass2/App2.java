@@ -5,7 +5,7 @@ public class App2 {
 	private String name;
 	
 	public App2() {
-		name = "Äí·çÄí±";
+		name = "ì¿ ë£¨ì¿ ë¤€";
 	}
 
 	public static void main(String[] args) {

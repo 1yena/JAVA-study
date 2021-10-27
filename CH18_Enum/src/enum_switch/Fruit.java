@@ -1,6 +1,6 @@
 package enum_switch;
 
-public enum Fruit { 		// enumÀº »ó¼ö(º¯ÇÏÁö ¾Ê´Â °ª)µéÀÇ ÁıÇÕ
-	APPLE, BANANA, ORANGE, ²¿³Å 	// ¾ÖÇÃ, ¹Ù³ª³ª, ¿À·»Áö ¿­°Å
+public enum Fruit { 		// enumì€ ìƒìˆ˜(ë³€í•˜ì§€ ì•ŠëŠ” ê°’)ë“¤ì˜ ì§‘í•©
+	APPLE, BANANA, ORANGE, ê¼¬ëƒ‘ 	// ì• í”Œ, ë°”ë‚˜ë‚˜, ì˜¤ë Œì§€ ì—´ê±°
 	
 }

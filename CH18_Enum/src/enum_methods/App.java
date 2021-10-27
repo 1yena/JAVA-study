@@ -3,7 +3,7 @@ package enum_methods;
 public class App {
 
 	public static void main(String[] args) {
-		//values()¸Ş¼Òµå ÇØ´ç enumÀÇ ¸ğµç »ó¼ö¸¦ ÀúÀåÇÑ ¹è¿­À» ¸®ÅÏÇÑ´Ù.
+		//values()ë©”ì†Œë“œ í•´ë‹¹ enumì˜ ëª¨ë“  ìƒìˆ˜ë¥¼ ì €ì¥í•œ ë°°ì—´ì„ ë¦¬í„´í•œë‹¤.
 		//Fruit[] fruits = Fruit.values();
 		
 		for (Fruit f : Fruit.values()) {
@@ -11,14 +11,14 @@ public class App {
 			
 		}
 		
-		//ordinal ¸Ş¼Òµå´Â »ó¼öÀÇ ¼ø¼­(ÀÎµ¦½º 0ºÎÅÍ ½ÃÀÛ)¸¦ ¸®ÅÏÇÑ´Ù.
+		//ordinal ë©”ì†Œë“œëŠ” ìƒìˆ˜ì˜ ìˆœì„œ(ì¸ë±ìŠ¤ 0ë¶€í„° ì‹œì‘)ë¥¼ ë¦¬í„´í•œë‹¤.
 		System.out.println(Fruit.APPLE.ordinal());
 		System.out.println(Fruit.BANANA.ordinal());
 		System.out.println(Fruit.ORANGE.ordinal());
 		
 		
-		//valueOf("°ª")¸Ş¼Òµå
-		Fruit f1 = Fruit.valueOf("ORANGE");		// ¹®ÀÚ¿ª ORANGE¿Í °°Àº °ªÀ» °¡Áø enum »ó¼ö¸¦ Ã£À½.
+		//valueOf("ê°’")ë©”ì†Œë“œ
+		Fruit f1 = Fruit.valueOf("ORANGE");		// ë¬¸ìì—­ ORANGEì™€ ê°™ì€ ê°’ì„ ê°€ì§„ enum ìƒìˆ˜ë¥¼ ì°¾ìŒ.
 		System.out.println(f1);
 		System.out.println(f1 == Fruit.ORANGE);
 		System.out.println(f1 == Fruit.BANANA);

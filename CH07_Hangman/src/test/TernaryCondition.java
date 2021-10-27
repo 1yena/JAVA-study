@@ -3,9 +3,9 @@ package test;
 public class TernaryCondition {
 
 	public static void main(String[] args) {
-		// »ïÇ× Á¶°Ç ¿¬»êÀÚ : Á¶°Ç ? A : B
-		System.out.println(true ? "yes" : "no"); // trus¸é ¾Õ¿¡ °ª
-		System.out.println(false ? "yes" : "no"); // false¸é µÚ¿¡ °ª
+		// ì‚¼í•­ ì¡°ê±´ ì—°ì‚°ìž : ì¡°ê±´ ? A : B
+		System.out.println(true ? "yes" : "no"); // trusë©´ ì•žì— ê°’
+		System.out.println(false ? "yes" : "no"); // falseë©´ ë’¤ì— ê°’
 
 		int value = 109;
 		value = value > 100 ? 100 : value;

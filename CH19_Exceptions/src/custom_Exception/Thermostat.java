@@ -8,14 +8,14 @@ public class Thermostat {
 	public void setTemperature(double temperature) throws TempTooHightException, TempTooLowException {
 		setMachineTemperature(temperature);
 		
-		System.out.println("¿Âµµ ¼¼ÆÃ : " + temperature); 		// ¿ÂÁ¶°¡ Á¤»óÀÏ °æ¿ì Ãâ·Â
+		System.out.println("ì˜¨ë„ ì„¸íŒ… : " + temperature); 		// ì˜¨ì¡°ê°€ ì •ìƒì¼ ê²½ìš° ì¶œë ¥
 	}
 
 	private void setMachineTemperature(double temperature) throws TempTooHightException, TempTooLowException {
 		if (temperature < 0) {
-			throw new TempTooLowException("¿Âµµ°¡ ³Ê¹« ³·½À´Ï´Ù."); // ¿¹¿Ü¸¦ »ı¼ºÇÔ
+			throw new TempTooLowException("ì˜¨ë„ê°€ ë„ˆë¬´ ë‚®ìŠµë‹ˆë‹¤."); // ì˜ˆì™¸ë¥¼ ìƒì„±í•¨
 		} else if (temperature > 35) {
-			throw new TempTooHightException("¿Âµµ°¡ ³Ê¹« ³ô½À´Ï´Ù.");	// ¿¹¿Ü¸¦ »ı¼ºÇÔ
+			throw new TempTooHightException("ì˜¨ë„ê°€ ë„ˆë¬´ ë†’ìŠµë‹ˆë‹¤.");	// ì˜ˆì™¸ë¥¼ ìƒì„±í•¨
 		}
 		
 	}

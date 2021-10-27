@@ -5,15 +5,15 @@ import java.util.Scanner;
 public class UserInput {
 
 	public static void main(String[] args) {
-		// ÀÔ·ÂÀ» ¹Ş´Â Å¬·¡½º scanner¸¦ ÀÌ¿ëÇÑ´Ù.
+		// ì…ë ¥ì„ ë°›ëŠ” í´ë˜ìŠ¤ scannerë¥¼ ì´ìš©í•œë‹¤.
 		
-		Scanner scanner = new Scanner(System.in); //½ºÄ³³Ê¸¦ »ç¿ëÇÒ ¼ö ÀÖ°Ô »ı¼º.
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		Scanner scanner = new Scanner(System.in); //ìŠ¤ìºë„ˆë¥¼ ì‚¬ìš©í•  ìˆ˜ ìˆê²Œ ìƒì„±.
+		System.out.print("ì˜¨ë„ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		
-		double c = scanner.nextDouble(); //½ºÄ³³Ê °´Ã¼ÀÇ nextInt() ¸Ş¼Òµå¸¦ Á¤¼ö°ªÀ» ÀÔ·Â.
-		double f = (c * 9/5) + 32; //È­¾¾
+		double c = scanner.nextDouble(); //ìŠ¤ìºë„ˆ ê°ì²´ì˜ nextInt() ë©”ì†Œë“œë¥¼ ì •ìˆ˜ê°’ì„ ì…ë ¥.
+		double f = (c * 9/5) + 32; //í™”ì”¨
 		
-		System.out.println("¼·¾¾ " +c+ "µµ´Â È­¾¾ "+f+"µµÀÌ´Ù.");
+		System.out.println("ì„­ì”¨ " +c+ "ë„ëŠ” í™”ì”¨ "+f+"ë„ì´ë‹¤.");
 		
 		scanner.close();
 		

@@ -12,14 +12,14 @@ import javax.swing.JOptionPane;
 class Alert extends TimerTask {
 	@Override
 	public void run() {
-		System.out.println("°è¶õ»î´ÂÁß");	
+		System.out.println("ê³„ëž€ì‚¶ëŠ”ì¤‘");	
 	}
 }
 
 class Task implements Runnable {
 	@Override
 	public void run() {
-		JOptionPane.showMessageDialog(null, "°è¶õ»î±â ¿Ï·á");
+		JOptionPane.showMessageDialog(null, "ê³„ëž€ì‚¶ê¸° ì™„ë£Œ");
 	}
 }
 

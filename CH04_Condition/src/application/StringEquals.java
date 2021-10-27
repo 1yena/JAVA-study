@@ -3,17 +3,17 @@ package application;
 public class StringEquals {
 	
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ÀÌ °°ÀºÁö ºñ±³ÇØ¼­ Âü, °ÅÁşÀ» ÆÇº°.
+		// ë¬¸ìì—´ì´ ê°™ì€ì§€ ë¹„êµí•´ì„œ ì°¸, ê±°ì§“ì„ íŒë³„.
 		
 		String text1 = "apple";
 		String text2 = "orange";
 		String text3 = "orange";
 		
-		System.out.printf("µÎ °³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : %b\n", text1==text2);
-		System.out.println("µÎ °³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : " + text1.equals(text2));
+		System.out.printf("ë‘ ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : %b\n", text1==text2);
+		System.out.println("ë‘ ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : " + text1.equals(text2));
 		
-		System.out.printf("µÎ °³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : %b\n", text3==text2);
-		System.out.println("µÎ °³ÀÇ ¹®ÀÚ¿­ ÀÏÄ¡ : " + text2.equals(text3));
+		System.out.printf("ë‘ ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : %b\n", text3==text2);
+		System.out.println("ë‘ ê°œì˜ ë¬¸ìì—´ ì¼ì¹˜ : " + text2.equals(text3));
 
 		
 	}

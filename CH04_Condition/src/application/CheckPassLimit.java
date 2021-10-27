@@ -7,7 +7,7 @@ public class CheckPassLimit {
 	public static void main(String[] args) {
 		// 
 		
-		final String user_pass = "°í±¸¸¶";
+		final String user_pass = "ê³ êµ¬ë§ˆ";
 		
 		Scanner scanner = new Scanner(System.in);
 		
@@ -16,16 +16,16 @@ public class CheckPassLimit {
 		String password = "";
 		
 		for(int i = 1; i <= 3; i++) {
-			System.out.print("È£¹Ú ? > ");
+			System.out.print("í˜¸ë°• ? > ");
 			password = scanner.nextLine();
 			
 			if(password.equals(user_pass)) {
-				System.out.println("Á¢¼Ó ½ÂÀÎ.");
+				System.out.println("ì ‘ì† ìŠ¹ì¸.");
 				accessOK = true;
 				break;
 			} 
 			else {
-				System.out.println("¾Æ³Ä.");
+				System.out.println("ì•„ëƒ.");
 			}
 		}
 		
@@ -33,7 +33,7 @@ public class CheckPassLimit {
 		scanner.close();
 		
 		if(!accessOK) {
-			System.out.println("Á¢¼Ó°ÅºÎ");
+			System.out.println("ì ‘ì†ê±°ë¶€");
 		}
 
 	}

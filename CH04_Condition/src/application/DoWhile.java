@@ -3,12 +3,12 @@ package application;
 public class DoWhile {
 
 	public static void main(String[] args) {
-		// do whileÀº Ã³À½ ÇÑ¹øÀº Á¶°Ç°ú »ó°ü¾øÀÌ ½ÇÇà
-		// ¹«Á¶°Ç ÇÑ ¹øÀº ½ÇÇàÀ» ÇÏ°í ±× ´ÙÀ½ ºñ±³¸¦ ÇÔ.
+		// do whileì€ ì²˜ìŒ í•œë²ˆì€ ì¡°ê±´ê³¼ ìƒê´€ì—†ì´ ì‹¤í–‰
+		// ë¬´ì¡°ê±´ í•œ ë²ˆì€ ì‹¤í–‰ì„ í•˜ê³  ê·¸ ë‹¤ìŒ ë¹„êµë¥¼ í•¨.
 		
 		int count = 100;
 		
-		System.out.println("do while ¹İº¹¹®");
+		System.out.println("do while ë°˜ë³µë¬¸");
 		
 		do {
 			System.out.println("count: " + count);
@@ -17,4 +17,4 @@ public class DoWhile {
 	}
 
 }
-// ÀÏ´Ü ÇÑ ¹ø ½ÇÇàÇØ¼­ "100" °ªÀÌ Ãâ·ÂµÇ°í ±× ´ÙÀ½ ºñ±³Çß´Âµ¥ ¾È ¸ÂÀ¸´Ï±î Á¾·á.
+// ì¼ë‹¨ í•œ ë²ˆ ì‹¤í–‰í•´ì„œ "100" ê°’ì´ ì¶œë ¥ë˜ê³  ê·¸ ë‹¤ìŒ ë¹„êµí–ˆëŠ”ë° ì•ˆ ë§ìœ¼ë‹ˆê¹Œ ì¢…ë£Œ.

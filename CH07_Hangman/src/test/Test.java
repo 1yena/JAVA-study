@@ -5,22 +5,22 @@ import java.util.Random;
 public class Test {
 
 	public static void main(String[] args) {
-		// Å×½ºÆ®¿ë
+		// í…ŒìŠ¤íŠ¸ìš©
 		
 		
 		/* 
 		 RandomWord word = new RandomWord();
 		
-		//System.out.println(word.toString()); // ÇÑ ´Ü¾î¸¸ ·£´ıÀ¸·Î Ãâ·Â.
+		//System.out.println(word.toString()); // í•œ ë‹¨ì–´ë§Œ ëœë¤ìœ¼ë¡œ ì¶œë ¥.
 		
 		Random random = new Random();
 		
-		String[] words = { "Æë¼ö", "°í¾çÀÌ", "¶óÀÌ¾û", "´Á´ë", "¼Ò" }; //¹è¿­ »ı¼º
+		String[] words = { "í­ìˆ˜", "ê³ ì–‘ì´", "ë¼ì´ì—‰", "ëŠ‘ëŒ€", "ì†Œ" }; //ë°°ì—´ ìƒì„±
 		
 		
 		
 		for(int i=0; i<100; i++) {
-			int n = random.nextInt(words.length); //¹è¿­ÀÇ ¼ö¸¸Å­(0~4) ·£´ı ¼ıÀÚ »ı¼º.
+			int n = random.nextInt(words.length); //ë°°ì—´ì˜ ìˆ˜ë§Œí¼(0~4) ëœë¤ ìˆ«ì ìƒì„±.
 			System.out.println(words[n]);
 		} 
 		*/

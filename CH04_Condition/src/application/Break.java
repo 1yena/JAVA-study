@@ -3,18 +3,18 @@ package application;
 public class Break {
 
 	public static void main(String[] args) {
-		// break ¹İº¹¹® ¾È¿¡¼­ »ç¿ë½Ã ¹İº¹¹®À» ºüÁ®³ª¿È.
+		// break ë°˜ë³µë¬¸ ì•ˆì—ì„œ ì‚¬ìš©ì‹œ ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ì˜´.
 		
 		int count = 0;
 		while (true) {
 			
-			System.out.println("Çï·Î." + count);
+			System.out.println("í—¬ë¡œ." + count);
 			System.out.println("how are you");
 			System.out.println("z" + count);
 			count++;
 			
 			if (count == 5) { 
-				break;		  //count°¡ 5°¡ µÇ¸é ¹İº¹¹®Àº ºüÁ®³ª¿È.
+				break;		  //countê°€ 5ê°€ ë˜ë©´ ë°˜ë³µë¬¸ì€ ë¹ ì ¸ë‚˜ì˜´.
 			}
 			
 		}
@@ -26,4 +26,4 @@ public class Break {
 }
 
 // [if (count == 5) break;]
-// ¸í·Ã¹®ÀÌ ÇÑ ÁÙ ¸¸ ÀÖÀ» ¶© »ı·«µµ °¡´É.
+// ëª…ë ¨ë¬¸ì´ í•œ ì¤„ ë§Œ ìˆì„ ë• ìƒëµë„ ê°€ëŠ¥.

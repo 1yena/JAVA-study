@@ -4,9 +4,9 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Person p1 = new Person("备备", 120.0);
-		Person p2 = new Person("鳖鳖", 172.5);
-		Person p3 = new Person("内内", 165.5);
+		Person p1 = new Person("甑惮", 120.0);
+		Person p2 = new Person("旯岅箤", 172.5);
+		Person p3 = new Person("旖旍綌", 165.5);
 		Person p4 = new Person();
 
 		/*

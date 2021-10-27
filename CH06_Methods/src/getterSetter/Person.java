@@ -5,10 +5,10 @@ public class Person {
 	private String name;
 	private int age;
 	
-	//get, set ¸Ş¼Òµå·Î º¯¼ö¿¡ Á¢±Ù
-	// set:ÀÔ·Â, get:°¡Á®¿À±â => °¢ ´Ü¾î µÚ¿¡ Ã¹±ÛÀÚ¸¦ ´ë¹®ÀÚ·Î Àû¾îÁÖ¸é µÊ.
+	//get, set ë©”ì†Œë“œë¡œ ë³€ìˆ˜ì— ì ‘ê·¼
+	// set:ì…ë ¥, get:ê°€ì ¸ì˜¤ê¸° => ê° ë‹¨ì–´ ë’¤ì— ì²«ê¸€ìë¥¼ ëŒ€ë¬¸ìë¡œ ì ì–´ì£¼ë©´ ë¨.
 	public void setName(String name) {
-			this.name = name;		 // this´Â ÀÎ½ºÅÏ½º
+			this.name = name;		 // thisëŠ” ì¸ìŠ¤í„´ìŠ¤
 		}
 		
 	public String getName() {

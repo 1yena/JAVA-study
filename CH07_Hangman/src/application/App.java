@@ -3,11 +3,11 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		// Çà¸Ç ÇÁ·Î±×·¥ ½ÃÀÛ
+		// í–‰ë§¨ í”„ë¡œê·¸ë¨ ì‹œì‘
 		
-		Hangman game = new Hangman(); //Å¬·¡½º Çà¸ÇÀÇ °´Ã¼¸¦ »ı¼º.
-		game.run(); 	//°ÔÀÓ½ÃÀÛ
-		game.close(); 	//°ÔÀÓ Á¾·á
+		Hangman game = new Hangman(); //í´ë˜ìŠ¤ í–‰ë§¨ì˜ ê°ì²´ë¥¼ ìƒì„±.
+		game.run(); 	//ê²Œì„ì‹œì‘
+		game.close(); 	//ê²Œì„ ì¢…ë£Œ
 		
 	}
 

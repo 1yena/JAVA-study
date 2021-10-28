@@ -18,7 +18,6 @@ public class IfElse {
 		scanner.close(); // 스캐너 사용 후 닫기 -> 그래야 경고 표시가 없어짐.
 		
 		
-		
 		if(apples < banana) {
 			System.out.println("바나나가 사과보다 많음.");
 		}
@@ -26,8 +25,6 @@ public class IfElse {
 		else {
 			System.out.println("사과가 바나나보다 많음.");
 		} // if문의 조건이 false일 때 실행됨.
-		
-		
 		
 		
 		System.out.println("프로그램 종료.");

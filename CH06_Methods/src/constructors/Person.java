@@ -9,7 +9,7 @@ public class Person {
 	public Person() {
 		//기본생성자 : 생략가능하며 매개변수 없음
 		System.out.println("한 사람을 생성!");
-	} // 이게 없으면 객체만 생성됨.
+	} 	// 이게 없으면 객체만 생성됨.
 	
 	//get, set 메소드
 	public void setName(String name) {

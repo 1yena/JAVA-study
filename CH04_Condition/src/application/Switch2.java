@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Switch2 {
 
 	public static void main(String[] args) {
-		// 
 		
 		Scanner scanner = new Scanner(System.in); //스캐너 생성
 		

@@ -1,33 +1,19 @@
 package yn;
 
-import java.util.Scanner;
 
-public class Yn1 {
-
+public class App {
 	public static void main(String[] args) {
-		// 안녕하세요
-		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("사과의 개수는 ? ");
+		//6장 컨스트럭트
 		
-		int a = scanner.nextInt();
+		Person p1 = new Person();
+		p1.setName("꽁꽁");
+		p1.setHeight(120.0);
 		
-		System.out.println("바나나의 개수는 ? ");
-		
-		int b = scanner.nextInt();
-		
-		scanner.close();
+		System.out.println(p1.getName());
+		System.out.println(p1.getHeight());
 		
 		
-		if(a < b) {
-			System.out.println("바나나");
-		} else if(a > b) {
-			System.out.println("사과");
-		} else {
-			System.out.println("개수가 같다");
-		} 
 		
-		System.out.println("시스템 종료");
 	}
-
 }

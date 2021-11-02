@@ -8,13 +8,20 @@ public class StringEquals {
 		String text1 = "apple";
 		String text2 = "orange";
 		String text3 = "orange";
+		String text4 = "banana";
 		
 		System.out.printf("두 개의 문자열 일치 : %b\n", text1==text2);
 		System.out.println("두 개의 문자열 일치 : " + text1.equals(text2));
 		
+		System.out.println("=====================================");
+		
 		System.out.printf("두 개의 문자열 일치 : %b\n", text3==text2);
 		System.out.println("두 개의 문자열 일치 : " + text2.equals(text3));
+		
+		System.out.println("=====================================");
 
+		System.out.printf("두 개의 문자열 일치 : %b\n", text2==text4);
+		System.out.println("두 개의 문자열 일치 : " + text2.equals(text3));
 		
 	}
 	

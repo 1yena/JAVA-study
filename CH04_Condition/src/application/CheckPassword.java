@@ -8,9 +8,11 @@ public class CheckPassword {
 		// 입력한 패스워드가 지정된 패스워드와 같은지 비교한다.
 		final String user_password = "앙팡";
 		
-		System.out.print("우유가 아프면 ? > ");
 		
 		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("우유가 아프면 ? > ");
+		
 		String password = scanner.nextLine();
 		scanner.close();
 		

@@ -3,7 +3,7 @@ package application;
 public class StringArray2 {
 
 	public static void main(String[] args) {
-		// string은 깁ㄴ 자료형이 아닌 참조 자료형, 참조 변수는 기본적으로 주소값을 갖는다.
+		// string은 기본 자료형이 아닌 참조 자료형, 참조 변수는 기본적으로 주소값을 갖는다.
 
 		// 널은 참조변수에 주소값이 없음.
 		String text = null;

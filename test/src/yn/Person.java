@@ -2,16 +2,22 @@ package yn;
 
 
 public class Person {
-	
 	private String name;
 	private double height;
 	
 	public Person() {
-		System.out.println("한 사람을 생성");
+		name = "신원미상";
+		height = 0.0;
+		System.out.println("모르는 사람을 생성!");
+	}
+	
+	public Person (String name, double height) {
+		this.name = name;
+		this.height = height;
+		System.out.println("누군가를 생성 !");
+
 	}
 
-	
-	
 	public String getName() {
 		return name;
 	}
@@ -27,8 +33,6 @@ public class Person {
 	public void setHeight(double height) {
 		this.height = height;
 	}
-	
-	
 	
 	
 	

@@ -2,6 +2,7 @@ package test;
 
 public class TernaryCondition {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// 삼항 조건 연산자 : 조건 ? A : B
 		System.out.println(true ? "yes" : "no"); // trus면 앞에 값

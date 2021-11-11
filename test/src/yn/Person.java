@@ -8,14 +8,13 @@ public class Person {
 	public Person() {
 		name = "신원미상";
 		height = 0.0;
-		System.out.println("모르는 사람을 생성!");
+		System.out.println("모르는 사람을 생성");
 	}
 	
-	public Person (String name, double height) {
+	public Person(String name, double height) {
 		this.name = name;
 		this.height = height;
-		System.out.println("누군가를 생성 !");
-
+		System.out.println("뿌꾸를 생성");
 	}
 
 	public String getName() {
@@ -32,6 +31,12 @@ public class Person {
 
 	public void setHeight(double height) {
 		this.height = height;
+	}
+
+	@Override
+	public String toString() {
+		String t = "이름 : " + name + "," + " 키 : " + height + "cm";
+		return t;
 	}
 	
 	

@@ -7,8 +7,8 @@ public class RandomWord {
 	
 	private String[] words = books.split(" "); //공백을 기준으로 잘라서 배열로 리턴한다.
 	
-	private String selectWord; 			// 선택한 단어
-	private Random rand = new Random(); //랜던 객체를 생성
+	private String selectWord; 				   // 선택한 단어
+	private Random rand = new Random();		   //랜던 객체를 생성
 	private char[] characters;
 	
 	public RandomWord() {
@@ -40,7 +40,7 @@ public class RandomWord {
 				
 		}
 		
-		// System.out.println(selectWord); 육안으로 확인용.
+//		System.out.println(selectWord); //육안으로 확인용.
 		return sb.toString();
 	}
 	

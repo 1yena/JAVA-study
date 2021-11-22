@@ -8,11 +8,12 @@ import java.net.Socket;
 import java.util.Vector;
 
 public class ChatServer1 {
-	
+	//기능 : 멀티 쓰레드 추가
+	//ChatServer1.bat (바탕화면)
 	Vector<ClientThread1> vc;
 	ServerSocket server;
 	
-	
+	//생성자
 	public ChatServer1() {
 		try {
 			server = new ServerSocket(8001);
@@ -22,9 +23,9 @@ public class ChatServer1 {
 			System.err.println("Error in Server");
 			System.exit(1);	//비정상적인 종료
 		}
-		System.out.println("*******************************");
+		System.out.println("*********************************");
 		System.out.println("클라이언트 접속을 기다리고 있습니다.");
-		System.out.println("*******************************");
+		System.out.println("*********************************");
 		try {
 			while(true) {
 				Socket sock = server.accept();
@@ -38,6 +39,7 @@ public class ChatServer1 {
 		}
 	}	//ChatServer1
 	
+	
 	//전체 접속자에게 메세지 전달
 	public void sendAllMessage(String msg) {
 		for (int i = 0; i < vc.size(); i++) {
@@ -48,6 +50,12 @@ public class ChatServer1 {
 		}
 	}
 	
+	//Vector에서 ClientThread1를 제거
+	public void removeClient(ClientThread1 ct) {
+		vc.remove(ct);
+	}
+	
+	//내부클래스
 	class ClientThread1 extends Thread {
 		
 		Socket sock;
@@ -56,6 +64,7 @@ public class ChatServer1 {
 		String user;
 		
 		public ClientThread1(Socket sock) {
+			
 			try {
 				this.sock = sock;
 				in = new BufferedReader(
@@ -75,9 +84,22 @@ public class ChatServer1 {
 				//클라이언트가 처음으로 받는 메세지
 				out.println("사용하실 아이디를 입력하세요.");
 				user = in.readLine();
-				
+				sendAllMessage("[" + user + "]님이 입장하였습니다.");
+				String data = "";
+				while (true) {
+					data = in.readLine(); //메세지 들어올 때까지 대기상태
+					if(data==null)
+						break;
+					sendAllMessage("[" + user + "]" + data);
+				}
+				in.close();
+				out.close();
+				sock.close();
 			} catch (Exception e) {
-				
+				//자기 자신의 객체를 Vector에서 제거
+				removeClient(this);
+				System.err.println(sock + "끊어짐...");
+//				e.printStackTrace();
 			}
 		}
 		

@@ -102,7 +102,8 @@ implements ActionListener, Runnable{
 					true/*auto flush*/);
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+		}//connect
+		
 		//Thread 시작하기
 		Thread t = new Thread(this);
 		t.start();
